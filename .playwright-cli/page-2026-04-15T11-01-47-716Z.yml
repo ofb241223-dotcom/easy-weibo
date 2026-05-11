@@ -1,0 +1,116 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e8]:
+        - img "HNUST logo" [ref=e9]
+        - generic [ref=e10]: Easy WeiBo
+      - navigation [ref=e11]:
+        - link "首页" [ref=e12] [cursor=pointer]:
+          - /url: /
+          - img [ref=e14]
+          - generic [ref=e17]: 首页
+        - link "发现" [ref=e18] [cursor=pointer]:
+          - /url: /search
+          - img [ref=e20]
+          - generic [ref=e23]: 发现
+        - link "话题" [ref=e24] [cursor=pointer]:
+          - /url: /topics
+          - img [ref=e26]
+          - generic [ref=e29]: 话题
+        - link "1 通知" [ref=e30] [cursor=pointer]:
+          - /url: /notifications
+          - generic [ref=e31]:
+            - img [ref=e32]
+            - generic [ref=e35]: "1"
+          - generic [ref=e36]: 通知
+        - link "个人主页" [ref=e37] [cursor=pointer]:
+          - /url: /profile/admin
+          - img [ref=e39]
+          - generic [ref=e42]: 个人主页
+        - link "控制台" [ref=e43] [cursor=pointer]:
+          - /url: /admin
+          - img [ref=e45]
+          - generic [ref=e50]: 控制台
+        - link "设置" [ref=e51] [cursor=pointer]:
+          - /url: /settings
+          - img [ref=e53]
+          - generic [ref=e56]: 设置
+        - button "深色模式" [ref=e57]:
+          - img [ref=e58]
+          - generic [ref=e60]: 深色模式
+      - button "发布" [ref=e62]:
+        - img [ref=e63]
+        - generic [ref=e65]: 发布
+      - generic [ref=e67] [cursor=pointer]:
+        - img "HNUST Admin" [ref=e68]
+        - generic [ref=e69]:
+          - paragraph [ref=e70]: HNUST Admin
+          - paragraph [ref=e71]: "@admin"
+        - button "退出登录" [ref=e72]:
+          - img [ref=e73]
+    - main [ref=e76]:
+      - generic [ref=e77]:
+        - generic [ref=e79]:
+          - button [ref=e80]:
+            - img [ref=e81]
+          - generic [ref=e83]:
+            - heading "管理员控制台" [level=1] [ref=e84]
+            - paragraph [ref=e85]: 查看关键数据、处理举报，并执行用户与内容治理。
+        - generic [ref=e87]:
+          - button "概览" [ref=e88]:
+            - img [ref=e89]
+            - text: 概览
+          - button "用户" [ref=e94]:
+            - img [ref=e95]
+            - text: 用户
+          - button "帖子" [ref=e98]:
+            - img [ref=e99]
+            - text: 帖子
+          - button "评论" [ref=e102]:
+            - img [ref=e103]
+            - text: 评论
+          - button "举报" [ref=e105]:
+            - img [ref=e106]
+            - text: 举报
+    - generic [ref=e111]:
+      - generic [ref=e113]:
+        - img [ref=e114]
+        - textbox "搜索 WeiBo" [ref=e117]
+      - generic [ref=e118]:
+        - heading "热门话题" [level=2] [ref=e119]
+        - generic [ref=e120] [cursor=pointer]:
+          - paragraph [ref=e121]: 正在热议
+          - paragraph [ref=e122]: "#Coding"
+          - paragraph [ref=e123]: 1 帖子
+        - generic [ref=e124] [cursor=pointer]:
+          - paragraph [ref=e125]: 正在热议
+          - paragraph [ref=e126]: "#HNUST"
+          - paragraph [ref=e127]: 1 帖子
+        - generic [ref=e128] [cursor=pointer]:
+          - paragraph [ref=e129]: 正在热议
+          - paragraph [ref=e130]: "#React"
+          - paragraph [ref=e131]: 1 帖子
+        - generic [ref=e132] [cursor=pointer]:
+          - paragraph [ref=e133]: 正在热议
+          - paragraph [ref=e134]: "#Welcome"
+          - paragraph [ref=e135]: 1 帖子
+        - button "显示更多" [ref=e136]
+      - generic [ref=e137]:
+        - heading "推荐关注" [level=2] [ref=e138]
+        - button "显示更多" [ref=e139]
+      - generic [ref=e141]:
+        - generic [ref=e142]: 服务条款
+        - generic [ref=e143]: "|"
+        - generic [ref=e144]: 隐私政策
+        - generic [ref=e145]: "|"
+        - generic [ref=e146]: Cookie 政策
+        - generic [ref=e147]: "|"
+        - generic [ref=e148]: 无障碍
+        - generic [ref=e149]: "|"
+        - generic [ref=e150]: 广告信息
+        - generic [ref=e151]: "|"
+        - generic [ref=e152]: 更多…
+        - generic [ref=e153]: "|"
+        - generic [ref=e154]: © 2026 HNUST Easy WeiBo
+  - button "打开 Gemini 对话" [ref=e155]:
+    - img "Gemini" [ref=e156]

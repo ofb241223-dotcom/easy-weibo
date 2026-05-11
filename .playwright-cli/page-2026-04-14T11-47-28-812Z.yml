@@ -1,0 +1,28 @@
+- generic [ref=e5]:
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - button [ref=e8]:
+        - img [ref=e9]
+      - generic [ref=e12]:
+        - heading "发布内容" [level=1] [ref=e13]
+        - paragraph [ref=e14]: 先普通编辑，需要时再切到全屏。
+    - generic [ref=e15]:
+      - button "退出全屏" [active] [ref=e48]:
+        - generic [ref=e17]:
+          - img [ref=e49]
+          - text: 退出全屏
+      - button "发布" [disabled] [ref=e23]
+  - generic [ref=e24]:
+    - generic [ref=e25]:
+      - img "Codex 已更新" [ref=e26]
+      - textbox "有什么新鲜事？" [ref=e28]
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - img [ref=e32] [cursor=pointer]
+        - button [ref=e36]:
+          - img [ref=e37]
+        - button [ref=e40]:
+          - img [ref=e41]
+        - button [ref=e44]:
+          - img [ref=e45]
+      - paragraph [ref=e47]: 0 字

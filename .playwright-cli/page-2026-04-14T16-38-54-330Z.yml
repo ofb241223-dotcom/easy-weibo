@@ -1,0 +1,231 @@
+- generic [ref=e4]:
+  - generic [ref=e6]:
+    - img "HNUST logo" [ref=e8]
+    - navigation [ref=e9]:
+      - link "首页" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e15]: 首页
+      - link "发现" [ref=e16] [cursor=pointer]:
+        - /url: /search
+        - img [ref=e18]
+        - generic [ref=e21]: 发现
+      - link "话题" [ref=e22] [cursor=pointer]:
+        - /url: /topics
+        - img [ref=e24]
+        - generic [ref=e27]: 话题
+      - link "1 通知" [ref=e28] [cursor=pointer]:
+        - /url: /notifications
+        - generic [ref=e29]:
+          - img [ref=e30]
+          - generic [ref=e33]: "1"
+        - generic [ref=e34]: 通知
+      - link "个人主页" [ref=e35] [cursor=pointer]:
+        - /url: /profile/admin
+        - img [ref=e37]
+        - generic [ref=e40]: 个人主页
+      - link "控制台" [ref=e41] [cursor=pointer]:
+        - /url: /admin
+        - img [ref=e43]
+        - generic [ref=e48]: 控制台
+      - link "设置" [ref=e49] [cursor=pointer]:
+        - /url: /settings
+        - img [ref=e51]
+        - generic [ref=e54]: 设置
+      - button "深色模式" [ref=e55]:
+        - img [ref=e56]
+        - generic [ref=e58]: 深色模式
+    - generic [ref=e59]:
+      - button "发布" [ref=e60]:
+        - img [ref=e61]
+        - generic [ref=e63]: 发布
+      - generic [ref=e64] [cursor=pointer]:
+        - img "HNUST Admin" [ref=e65]
+        - generic [ref=e66]:
+          - paragraph [ref=e67]: HNUST Admin
+          - paragraph [ref=e68]: "@admin"
+        - button "退出登录" [ref=e69]:
+          - img [ref=e70]
+  - main [ref=e73]:
+    - generic [ref=e74]:
+      - generic [ref=e76]:
+        - button [ref=e77]:
+          - img [ref=e78]
+        - generic [ref=e80]:
+          - heading "管理员控制台" [level=1] [ref=e81]
+          - paragraph [ref=e82]: 查看关键数据、处理举报，并执行用户与内容治理。
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - button "概览" [ref=e85]:
+            - img [ref=e86]
+            - text: 概览
+          - button "用户" [ref=e91]:
+            - img [ref=e92]
+            - text: 用户
+          - button "帖子" [ref=e95]:
+            - img [ref=e96]
+            - text: 帖子
+          - button "评论" [ref=e99]:
+            - img [ref=e100]
+            - text: 评论
+          - button "举报" [ref=e102]:
+            - img [ref=e103]
+            - text: 举报
+        - generic [ref=e105]:
+          - button "用户总数 3 查看用户状态与治理" [ref=e106]:
+            - generic [ref=e107]:
+              - generic [ref=e108]:
+                - paragraph [ref=e109]: 用户总数
+                - paragraph [ref=e110]: "3"
+                - paragraph [ref=e111]: 查看用户状态与治理
+              - img [ref=e113]
+          - button "帖子总数 3 查看帖子状态与处理" [ref=e116]:
+            - generic [ref=e117]:
+              - generic [ref=e118]:
+                - paragraph [ref=e119]: 帖子总数
+                - paragraph [ref=e120]: "3"
+                - paragraph [ref=e121]: 查看帖子状态与处理
+              - img [ref=e123]
+          - button "评论总数 1 查看评论并执行删除" [ref=e126]:
+            - generic [ref=e127]:
+              - generic [ref=e128]:
+                - paragraph [ref=e129]: 评论总数
+                - paragraph [ref=e130]: "1"
+                - paragraph [ref=e131]: 查看评论并执行删除
+              - img [ref=e133]
+          - button "待处理举报 0 优先处理开放中的举报" [ref=e135]:
+            - generic [ref=e136]:
+              - generic [ref=e137]:
+                - paragraph [ref=e138]: 待处理举报
+                - paragraph [ref=e139]: "0"
+                - paragraph [ref=e140]: 优先处理开放中的举报
+              - img [ref=e142]
+        - generic [ref=e144]:
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - heading "用户" [level=2] [ref=e147]
+              - paragraph [ref=e148]: 搜索用户、查看状态，并执行封禁或禁言。
+            - button "刷新数据" [ref=e149]:
+              - img [ref=e150]
+              - text: 刷新数据
+          - generic [ref=e155]:
+            - generic [ref=e156]:
+              - generic [ref=e157]:
+                - img
+                - textbox [ref=e158]:
+                  - /placeholder: 搜索用户名或昵称
+              - combobox [ref=e159]:
+                - option "全部账号状态" [selected]
+                - option "正常"
+                - option "已封禁"
+              - combobox [ref=e160]:
+                - option "全部发言状态" [selected]
+                - option "正常"
+                - option "已禁言"
+              - button "查询" [ref=e161]
+            - generic [ref=e162]:
+              - generic [ref=e164]:
+                - generic [ref=e165]:
+                  - img "Jane Doe" [ref=e166]
+                  - generic [ref=e167]:
+                    - generic [ref=e168]:
+                      - button "Jane Doe" [ref=e169]
+                      - generic [ref=e170]: "@janedoe"
+                      - generic [ref=e171]: ACTIVE
+                      - generic [ref=e172]: NORMAL
+                      - generic [ref=e173]: USER
+                    - paragraph [ref=e174]: Loving life and coding.
+                    - paragraph [ref=e175]: 注册于 2026/03/16 00:25 · 0 粉丝 · 1 正在关注
+                - generic [ref=e176]:
+                  - button "封禁账号" [ref=e177]:
+                    - generic [ref=e178]:
+                      - img [ref=e179]
+                      - text: 封禁账号
+                  - button "禁言用户" [active] [ref=e182]:
+                    - generic [ref=e183]:
+                      - img [ref=e184]
+                      - text: 禁言用户
+              - generic [ref=e189]:
+                - generic [ref=e190]:
+                  - img "John Doe" [ref=e191]
+                  - generic [ref=e192]:
+                    - generic [ref=e193]:
+                      - button "John Doe" [ref=e194]
+                      - generic [ref=e195]: "@johndoe"
+                      - generic [ref=e196]: ACTIVE
+                      - generic [ref=e197]: NORMAL
+                      - generic [ref=e198]: USER
+                    - paragraph [ref=e199]: Just a student at HNUST.
+                    - paragraph [ref=e200]: 注册于 2026/02/14 00:25 · 1 粉丝 · 1 正在关注
+                - generic [ref=e201]:
+                  - button "封禁账号" [ref=e202]:
+                    - generic [ref=e203]:
+                      - img [ref=e204]
+                      - text: 封禁账号
+                  - button "禁言用户" [ref=e207]:
+                    - generic [ref=e208]:
+                      - img [ref=e209]
+                      - text: 禁言用户
+              - generic [ref=e215]:
+                - img "HNUST Admin" [ref=e216]
+                - generic [ref=e217]:
+                  - generic [ref=e218]:
+                    - button "HNUST Admin" [ref=e219]
+                    - generic [ref=e220]: "@admin"
+                    - generic [ref=e221]: ACTIVE
+                    - generic [ref=e222]: NORMAL
+                    - generic [ref=e223]: ADMIN
+                  - paragraph [ref=e224]: Official admin of HNUST Easy WeiBo.
+                  - paragraph [ref=e225]: 注册于 2025/12/16 00:25 · 2 粉丝 · 1 正在关注
+      - generic [ref=e270]:
+        - generic [ref=e271]:
+          - generic [ref=e272]:
+            - heading "禁言用户" [level=3] [ref=e273]
+            - paragraph [ref=e274]: 对象：Jane Doe（@janedoe）
+          - button "取消" [ref=e275]
+        - generic [ref=e277]:
+          - generic [ref=e278]: 处理原因
+          - textbox "处理原因" [ref=e279]:
+            - /placeholder: 请填写原因，这会通过系统通知发送给对方。
+        - generic [ref=e280]:
+          - button "取消" [ref=e281]
+          - button "确认禁言" [ref=e282]
+  - generic [ref=e227]:
+    - generic [ref=e229]:
+      - img [ref=e230]
+      - textbox "搜索 WeiBo" [ref=e233]
+    - generic [ref=e234]:
+      - heading "热门话题" [level=2] [ref=e235]
+      - generic [ref=e236] [cursor=pointer]:
+        - paragraph [ref=e237]: 正在热议
+        - paragraph [ref=e238]: "#Coding"
+        - paragraph [ref=e239]: 1 帖子
+      - generic [ref=e240] [cursor=pointer]:
+        - paragraph [ref=e241]: 正在热议
+        - paragraph [ref=e242]: "#HNUST"
+        - paragraph [ref=e243]: 1 帖子
+      - generic [ref=e244] [cursor=pointer]:
+        - paragraph [ref=e245]: 正在热议
+        - paragraph [ref=e246]: "#React"
+        - paragraph [ref=e247]: 1 帖子
+      - generic [ref=e248] [cursor=pointer]:
+        - paragraph [ref=e249]: 正在热议
+        - paragraph [ref=e250]: "#Welcome"
+        - paragraph [ref=e251]: 1 帖子
+      - button "显示更多" [ref=e252]
+    - generic [ref=e253]:
+      - heading "推荐关注" [level=2] [ref=e254]
+      - generic [ref=e255] [cursor=pointer]:
+        - img "John Doe" [ref=e256]
+        - generic [ref=e257]:
+          - paragraph [ref=e258]: John Doe
+          - paragraph [ref=e259]: "@johndoe"
+        - button "已关注" [ref=e260]
+      - generic [ref=e261] [cursor=pointer]:
+        - img "Jane Doe" [ref=e262]
+        - generic [ref=e263]:
+          - paragraph [ref=e264]: Jane Doe
+          - paragraph [ref=e265]: "@janedoe"
+        - button "关注" [ref=e266]
+      - button "显示更多" [ref=e267]
+    - generic [ref=e268]: 服务条款隐私政策Cookie 政策© 2026 HNUST Easy WeiBo

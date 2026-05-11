@@ -1,0 +1,294 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e8]:
+          - img "HNUST logo" [ref=e9]
+          - generic [ref=e10]: Easy WeiBo
+        - navigation [ref=e11]:
+          - link "首页" [ref=e12] [cursor=pointer]:
+            - /url: /
+            - img [ref=e14]
+            - generic [ref=e17]: 首页
+          - link "发现" [ref=e18] [cursor=pointer]:
+            - /url: /search
+            - img [ref=e20]
+            - generic [ref=e23]: 发现
+          - link "话题" [ref=e24] [cursor=pointer]:
+            - /url: /topics
+            - img [ref=e26]
+            - generic [ref=e29]: 话题
+          - link "2 通知" [ref=e30] [cursor=pointer]:
+            - /url: /notifications
+            - generic [ref=e31]:
+              - img [ref=e32]
+              - generic [ref=e35]: "2"
+            - generic [ref=e36]: 通知
+          - link "个人主页" [ref=e37] [cursor=pointer]:
+            - /url: /profile/admin
+            - img [ref=e39]
+            - generic [ref=e42]: 个人主页
+          - link "关注列表" [ref=e43] [cursor=pointer]:
+            - /url: /connections
+            - img [ref=e45]
+            - generic [ref=e48]: 关注列表
+          - link "聊天" [ref=e49] [cursor=pointer]:
+            - /url: /chat
+            - img [ref=e51]
+            - generic [ref=e53]: 聊天
+          - link "控制台" [ref=e54] [cursor=pointer]:
+            - /url: /admin
+            - img [ref=e56]
+            - generic [ref=e61]: 控制台
+          - link "设置" [ref=e62] [cursor=pointer]:
+            - /url: /settings
+            - img [ref=e64]
+            - generic [ref=e67]: 设置
+          - button "深色模式" [ref=e68]:
+            - img [ref=e69]
+            - generic [ref=e71]: 深色模式
+        - button "发布" [ref=e73]:
+          - img [ref=e74]
+          - generic [ref=e76]: 发布
+        - generic [ref=e79] [cursor=pointer]:
+          - img "HNUST Admin" [ref=e80]
+          - generic [ref=e81]:
+            - paragraph [ref=e82]: HNUST Admin
+            - paragraph [ref=e83]: "@admin"
+          - button "退出登录" [ref=e84]:
+            - img [ref=e85]
+      - main [ref=e88]:
+        - generic [ref=e122]:
+          - generic [ref=e123]:
+            - button [ref=e124]:
+              - img [ref=e125]
+            - heading "帖子" [level=1] [ref=e127]
+          - generic [ref=e129] [cursor=pointer]:
+            - img "HNUST Admin" [ref=e130]
+            - generic [ref=e131]:
+              - generic [ref=e132]:
+                - generic [ref=e133]:
+                  - generic [ref=e134]: HNUST Admin
+                  - generic [ref=e135]: "@admin"
+                  - generic [ref=e136]: ·
+                  - generic [ref=e137]: 大约 10 小时前
+                - button "更多操作" [ref=e139]:
+                  - img [ref=e140]
+              - generic [ref=e144]:
+                - text: Welcome to HNUST Easy WeiBo! Share your thoughts and connect with others.
+                - button "#HNUST" [ref=e145]
+                - button "#Welcome" [ref=e146]
+              - img "Post content" [ref=e148]
+              - generic [ref=e149]:
+                - generic [ref=e150]:
+                  - button "2" [ref=e151]:
+                    - img [ref=e153]
+                    - generic [ref=e155]: "2"
+                  - button "1" [ref=e156]:
+                    - img [ref=e158]
+                    - generic [ref=e163]: "1"
+                  - button "4" [ref=e164]:
+                    - img [ref=e166]
+                    - generic [ref=e168]: "4"
+                  - button "11" [active] [ref=e169]:
+                    - img [ref=e171]
+                    - generic [ref=e173]: "11"
+                - generic [ref=e174]:
+                  - button [ref=e175]:
+                    - img [ref=e177]
+                  - button [ref=e179]:
+                    - img [ref=e181]
+          - generic [ref=e189]:
+            - img "HNUST Admin" [ref=e190]
+            - generic [ref=e191]:
+              - textbox "发布你的回复" [ref=e192]
+              - generic [ref=e193]:
+                - generic [ref=e194]:
+                  - img [ref=e196] [cursor=pointer]
+                  - button [ref=e200]:
+                    - img [ref=e201]
+                - button "回复" [disabled] [ref=e204]
+          - generic [ref=e205]:
+            - generic [ref=e206]:
+              - img "Jane Doe" [ref=e207] [cursor=pointer]
+              - generic [ref=e208]:
+                - generic [ref=e209]:
+                  - generic [ref=e210] [cursor=pointer]: Jane Doe
+                  - generic [ref=e211]: "@janedoe"
+                  - generic [ref=e212]: ·
+                  - generic [ref=e213]: 大约 9 小时前
+                - paragraph [ref=e214]: 终于有我们自己的校园微博了。
+            - generic [ref=e215]:
+              - img "John Doe" [ref=e216] [cursor=pointer]
+              - generic [ref=e217]:
+                - generic [ref=e218]:
+                  - generic [ref=e219] [cursor=pointer]: John Doe
+                  - generic [ref=e220]: "@johndoe"
+                  - generic [ref=e221]: ·
+                  - generic [ref=e222]: 大约 9 小时前
+                - paragraph [ref=e223]: Great to be here!
+      - generic [ref=e92]:
+        - generic [ref=e94]:
+          - img [ref=e95]
+          - textbox "搜索 WeiBo" [ref=e98]
+        - generic [ref=e99]:
+          - heading "热门话题" [level=2] [ref=e100]
+          - 'button "正在热议 #Coding 1 帖子" [ref=e224]':
+            - paragraph [ref=e225]: 正在热议
+            - paragraph [ref=e226]: "#Coding"
+            - paragraph [ref=e227]: 1 帖子
+          - 'button "正在热议 #HNUST 1 帖子" [ref=e228]':
+            - paragraph [ref=e229]: 正在热议
+            - paragraph [ref=e230]: "#HNUST"
+            - paragraph [ref=e231]: 1 帖子
+          - 'button "正在热议 #Linux 1 帖子" [ref=e232]':
+            - paragraph [ref=e233]: 正在热议
+            - paragraph [ref=e234]: "#Linux"
+            - paragraph [ref=e235]: 1 帖子
+          - 'button "正在热议 #MySQL 1 帖子" [ref=e236]':
+            - paragraph [ref=e237]: 正在热议
+            - paragraph [ref=e238]: "#MySQL"
+            - paragraph [ref=e239]: 1 帖子
+          - 'button "正在热议 #React 1 帖子" [ref=e240]':
+            - paragraph [ref=e241]: 正在热议
+            - paragraph [ref=e242]: "#React"
+            - paragraph [ref=e243]: 1 帖子
+          - 'button "正在热议 #SpringBoot 1 帖子" [ref=e244]':
+            - paragraph [ref=e245]: 正在热议
+            - paragraph [ref=e246]: "#SpringBoot"
+            - paragraph [ref=e247]: 1 帖子
+          - button "显示更多" [ref=e101]
+        - generic [ref=e102]:
+          - heading "推荐关注" [level=2] [ref=e103]
+          - article [ref=e248]:
+            - link "Frank Luo Frank Luo @frank" [ref=e249] [cursor=pointer]:
+              - /url: /profile/frank
+              - img "Frank Luo" [ref=e250]
+              - generic [ref=e251]:
+                - paragraph [ref=e252]: Frank Luo
+                - paragraph [ref=e253]: "@frank"
+            - button "关注" [ref=e254]
+          - article [ref=e255]:
+            - link "Bob Li Bob Li @bob" [ref=e256] [cursor=pointer]:
+              - /url: /profile/bob
+              - img "Bob Li" [ref=e257]
+              - generic [ref=e258]:
+                - paragraph [ref=e259]: Bob Li
+                - paragraph [ref=e260]: "@bob"
+            - button "已关注" [ref=e261]
+          - article [ref=e262]:
+            - link "Alice Chen Alice Chen @alice" [ref=e263] [cursor=pointer]:
+              - /url: /profile/alice
+              - img "Alice Chen" [ref=e264]
+              - generic [ref=e265]:
+                - paragraph [ref=e266]: Alice Chen
+                - paragraph [ref=e267]: "@alice"
+            - button "已关注" [ref=e268]
+          - article [ref=e269]:
+            - link "Grace Yu Grace Yu @grace" [ref=e270] [cursor=pointer]:
+              - /url: /profile/grace
+              - img "Grace Yu" [ref=e271]
+              - generic [ref=e272]:
+                - paragraph [ref=e273]: Grace Yu
+                - paragraph [ref=e274]: "@grace"
+            - button "关注" [ref=e275]
+          - article [ref=e276]:
+            - link "Emma Zhou Emma Zhou @emma" [ref=e277] [cursor=pointer]:
+              - /url: /profile/emma
+              - img "Emma Zhou" [ref=e278]
+              - generic [ref=e279]:
+                - paragraph [ref=e280]: Emma Zhou
+                - paragraph [ref=e281]: "@emma"
+            - button "关注" [ref=e282]
+          - button "显示更多" [ref=e104]
+        - generic [ref=e106]:
+          - generic [ref=e107]: 服务条款
+          - generic [ref=e108]: "|"
+          - generic [ref=e109]: 隐私政策
+          - generic [ref=e110]: "|"
+          - generic [ref=e111]: Cookie 政策
+          - generic [ref=e112]: "|"
+          - generic [ref=e113]: 无障碍
+          - generic [ref=e114]: "|"
+          - generic [ref=e115]: 广告信息
+          - generic [ref=e116]: "|"
+          - generic [ref=e117]: 更多…
+          - generic [ref=e118]: "|"
+          - generic [ref=e119]: © 2026 HNUST Easy WeiBo
+    - button "打开 Gemini 对话" [ref=e120]:
+      - img "Gemini" [ref=e121]
+  - complementary [ref=e284]:
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - generic [ref=e287]:
+          - heading "浏览记录 · 11" [level=3] [ref=e288]
+          - paragraph [ref=e289]: 仅作者和管理员可查看是谁在什么时候看过这条帖子。
+        - button [ref=e290]:
+          - img [ref=e291]
+      - generic [ref=e295]:
+        - generic [ref=e296]:
+          - img "HNUST Admin" [ref=e297]
+          - generic [ref=e298]:
+            - paragraph [ref=e299]: HNUST Admin
+            - paragraph [ref=e300]: "@admin"
+          - generic [ref=e301]: 04/16 10:43
+        - generic [ref=e302]:
+          - img "HNUST Admin" [ref=e303]
+          - generic [ref=e304]:
+            - paragraph [ref=e305]: HNUST Admin
+            - paragraph [ref=e306]: "@admin"
+          - generic [ref=e307]: 04/16 10:43
+        - generic [ref=e308]:
+          - img "HNUST Admin" [ref=e309]
+          - generic [ref=e310]:
+            - paragraph [ref=e311]: HNUST Admin
+            - paragraph [ref=e312]: "@admin"
+          - generic [ref=e313]: 04/16 10:43
+        - generic [ref=e314]:
+          - img "HNUST Admin" [ref=e315]
+          - generic [ref=e316]:
+            - paragraph [ref=e317]: HNUST Admin
+            - paragraph [ref=e318]: "@admin"
+          - generic [ref=e319]: 04/16 10:43
+        - generic [ref=e320]:
+          - img "HNUST Admin" [ref=e321]
+          - generic [ref=e322]:
+            - paragraph [ref=e323]: HNUST Admin
+            - paragraph [ref=e324]: "@admin"
+          - generic [ref=e325]: 04/16 10:42
+        - generic [ref=e326]:
+          - img "David Hu" [ref=e327]
+          - generic [ref=e328]:
+            - paragraph [ref=e329]: David Hu
+            - paragraph [ref=e330]: "@david"
+          - generic [ref=e331]: 04/16 01:23
+        - generic [ref=e332]:
+          - img "Carol Wang" [ref=e333]
+          - generic [ref=e334]:
+            - paragraph [ref=e335]: Carol Wang
+            - paragraph [ref=e336]: "@carol"
+          - generic [ref=e337]: 04/16 01:21
+        - generic [ref=e338]:
+          - img "Bob Li" [ref=e339]
+          - generic [ref=e340]:
+            - paragraph [ref=e341]: Bob Li
+            - paragraph [ref=e342]: "@bob"
+          - generic [ref=e343]: 04/16 01:19
+        - generic [ref=e344]:
+          - img "Alice Chen" [ref=e345]
+          - generic [ref=e346]:
+            - paragraph [ref=e347]: Alice Chen
+            - paragraph [ref=e348]: "@alice"
+          - generic [ref=e349]: 04/16 01:17
+        - generic [ref=e350]:
+          - img "Jane Doe" [ref=e351]
+          - generic [ref=e352]:
+            - paragraph [ref=e353]: Jane Doe
+            - paragraph [ref=e354]: "@janedoe"
+          - generic [ref=e355]: 04/16 01:15
+        - generic [ref=e356]:
+          - img "John Doe" [ref=e357]
+          - generic [ref=e358]:
+            - paragraph [ref=e359]: John Doe
+            - paragraph [ref=e360]: "@johndoe"
+          - generic [ref=e361]: 04/16 01:13

@@ -1,0 +1,873 @@
+- generic [ref=e3]:
+  - generic [ref=e6]:
+    - img [ref=e8]
+    - generic [ref=e43]:
+      - textbox [ref=e44]: /v3/api-docs
+      - button "Explore" [ref=e45] [cursor=pointer]
+  - generic [ref=e46]:
+    - generic:
+      - img
+    - generic [ref=e47]:
+      - generic [ref=e52]:
+        - heading "OpenAPI definition v0 OAS 3.0" [level=2] [ref=e53]:
+          - text: OpenAPI definition
+          - generic [ref=e54]:
+            - generic [ref=e56]: v0
+            - generic [ref=e58]: OAS 3.0
+        - link "/v3/api-docs" [ref=e59] [cursor=pointer]:
+          - /url: /v3/api-docs
+          - generic [ref=e60]: /v3/api-docs
+      - generic [ref=e64]:
+        - text: Servers
+        - combobox [ref=e67]:
+          - option "http://localhost:8080 - Generated server url" [selected]
+      - generic [ref=e70]:
+        - generic [ref=e72]:
+          - heading "user-controller Collapse operation" [level=3] [ref=e73] [cursor=pointer]:
+            - link "user-controller" [ref=e74]:
+              - /url: "#/user-controller"
+            - button "Collapse operation" [expanded] [ref=e75]:
+              - img [ref=e76]
+          - generic [ref=e79]:
+            - generic [ref=e82] [cursor=pointer]:
+              - 'button "POST /api/users/{id}/follow" [ref=e83]':
+                - generic [ref=e84]: POST
+                - 'link "/api/users/{id}/follow" [ref=e87]':
+                  - /url: "#/user-controller/toggleFollow"
+                  - generic [ref=e88]:
+                    - text: /api
+                    - text: /users
+                    - text: "/{id}"
+                    - text: /follow
+              - generic "Copy to clipboard"
+              - 'button "post /api/users/{id}/follow" [ref=e91]':
+                - img [ref=e92]
+            - generic [ref=e96] [cursor=pointer]:
+              - button "PATCH /api/users/me" [ref=e97]:
+                - generic [ref=e98]: PATCH
+                - link "/api/users/me" [ref=e101]:
+                  - /url: "#/user-controller/updateCurrentUser"
+                  - generic [ref=e102]:
+                    - text: /api
+                    - text: /users
+                    - text: /me
+              - generic "Copy to clipboard"
+              - button "patch /api/users/me" [ref=e105]:
+                - img [ref=e106]
+            - generic [ref=e110] [cursor=pointer]:
+              - button "PATCH /api/users/me/password" [ref=e111]:
+                - generic [ref=e112]: PATCH
+                - link "/api/users/me/password" [ref=e115]:
+                  - /url: "#/user-controller/changePassword"
+                  - generic [ref=e116]:
+                    - text: /api
+                    - text: /users
+                    - text: /me
+                    - text: /password
+              - generic "Copy to clipboard"
+              - button "patch /api/users/me/password" [ref=e119]:
+                - img [ref=e120]
+            - generic [ref=e124] [cursor=pointer]:
+              - 'button "GET /api/users/{username}" [ref=e125]':
+                - generic [ref=e126]: GET
+                - 'link "/api/users/{username}" [ref=e129]':
+                  - /url: "#/user-controller/getByUsername"
+                  - generic [ref=e130]:
+                    - text: /api
+                    - text: /users
+                    - text: "/{username}"
+              - generic "Copy to clipboard"
+              - 'button "get /api/users/{username}" [ref=e133]':
+                - img [ref=e134]
+            - generic [ref=e138] [cursor=pointer]:
+              - 'button "GET /api/users/{id}/comments" [ref=e139]':
+                - generic [ref=e140]: GET
+                - 'link "/api/users/{id}/comments" [ref=e143]':
+                  - /url: "#/user-controller/listCommentsByAuthor"
+                  - generic [ref=e144]:
+                    - text: /api
+                    - text: /users
+                    - text: "/{id}"
+                    - text: /comments
+              - generic "Copy to clipboard"
+              - 'button "get /api/users/{id}/comments" [ref=e147]':
+                - img [ref=e148]
+            - generic [ref=e152] [cursor=pointer]:
+              - button "GET /api/users/search" [ref=e153]:
+                - generic [ref=e154]: GET
+                - link "/api/users/search" [ref=e157]:
+                  - /url: "#/user-controller/searchUsers"
+                  - generic [ref=e158]:
+                    - text: /api
+                    - text: /users
+                    - text: /search
+              - generic "Copy to clipboard"
+              - button "get /api/users/search" [ref=e161]:
+                - img [ref=e162]
+            - generic [ref=e166] [cursor=pointer]:
+              - button "GET /api/users/recommended" [ref=e167]:
+                - generic [ref=e168]: GET
+                - link "/api/users/recommended" [ref=e171]:
+                  - /url: "#/user-controller/recommendedUsers"
+                  - generic [ref=e172]:
+                    - text: /api
+                    - text: /users
+                    - text: /recommended
+              - generic "Copy to clipboard"
+              - button "get /api/users/recommended" [ref=e175]:
+                - img [ref=e176]
+        - generic [ref=e179]:
+          - heading "upload-controller Collapse operation" [level=3] [ref=e180] [cursor=pointer]:
+            - link "upload-controller" [ref=e181]:
+              - /url: "#/upload-controller"
+            - button "Collapse operation" [expanded] [ref=e182]:
+              - img [ref=e183]
+          - generic [ref=e189] [cursor=pointer]:
+            - button "POST /api/uploads/images" [ref=e190]:
+              - generic [ref=e191]: POST
+              - link "/api/uploads/images" [ref=e194]:
+                - /url: "#/upload-controller/uploadImage"
+                - generic [ref=e195]:
+                  - text: /api
+                  - text: /uploads
+                  - text: /images
+            - generic "Copy to clipboard"
+            - button "post /api/uploads/images" [ref=e198]:
+              - img [ref=e199]
+        - generic [ref=e202]:
+          - heading "post-controller Collapse operation" [level=3] [ref=e203] [cursor=pointer]:
+            - link "post-controller" [ref=e204]:
+              - /url: "#/post-controller"
+            - button "Collapse operation" [expanded] [ref=e205]:
+              - img [ref=e206]
+          - generic [ref=e209]:
+            - generic [ref=e212] [cursor=pointer]:
+              - button "GET /api/posts" [ref=e213]:
+                - generic [ref=e214]: GET
+                - link "/api/posts" [ref=e217]:
+                  - /url: "#/post-controller/listPosts"
+                  - generic [ref=e218]:
+                    - text: /api
+                    - text: /posts
+              - generic "Copy to clipboard"
+              - button "get /api/posts" [ref=e221]:
+                - img [ref=e222]
+            - generic [ref=e226] [cursor=pointer]:
+              - button "POST /api/posts" [ref=e227]:
+                - generic [ref=e228]: POST
+                - link "/api/posts" [ref=e231]:
+                  - /url: "#/post-controller/createPost"
+                  - generic [ref=e232]:
+                    - text: /api
+                    - text: /posts
+              - generic "Copy to clipboard"
+              - button "post /api/posts" [ref=e235]:
+                - img [ref=e236]
+            - generic [ref=e240] [cursor=pointer]:
+              - 'button "POST /api/posts/{id}/republish" [ref=e241]':
+                - generic [ref=e242]: POST
+                - 'link "/api/posts/{id}/republish" [ref=e245]':
+                  - /url: "#/post-controller/republishPost"
+                  - generic [ref=e246]:
+                    - text: /api
+                    - text: /posts
+                    - text: "/{id}"
+                    - text: /republish
+              - generic "Copy to clipboard"
+              - 'button "post /api/posts/{id}/republish" [ref=e249]':
+                - img [ref=e250]
+            - generic [ref=e254] [cursor=pointer]:
+              - 'button "POST /api/posts/{id}/repost" [ref=e255]':
+                - generic [ref=e256]: POST
+                - 'link "/api/posts/{id}/repost" [ref=e259]':
+                  - /url: "#/post-controller/toggleRepost"
+                  - generic [ref=e260]:
+                    - text: /api
+                    - text: /posts
+                    - text: "/{id}"
+                    - text: /repost
+              - generic "Copy to clipboard"
+              - 'button "post /api/posts/{id}/repost" [ref=e263]':
+                - img [ref=e264]
+            - generic [ref=e268] [cursor=pointer]:
+              - 'button "POST /api/posts/{id}/report" [ref=e269]':
+                - generic [ref=e270]: POST
+                - 'link "/api/posts/{id}/report" [ref=e273]':
+                  - /url: "#/post-controller/reportPost"
+                  - generic [ref=e274]:
+                    - text: /api
+                    - text: /posts
+                    - text: "/{id}"
+                    - text: /report
+              - generic "Copy to clipboard"
+              - 'button "post /api/posts/{id}/report" [ref=e277]':
+                - img [ref=e278]
+            - generic [ref=e282] [cursor=pointer]:
+              - 'button "POST /api/posts/{id}/like" [ref=e283]':
+                - generic [ref=e284]: POST
+                - 'link "/api/posts/{id}/like" [ref=e287]':
+                  - /url: "#/post-controller/toggleLike"
+                  - generic [ref=e288]:
+                    - text: /api
+                    - text: /posts
+                    - text: "/{id}"
+                    - text: /like
+              - generic "Copy to clipboard"
+              - 'button "post /api/posts/{id}/like" [ref=e291]':
+                - img [ref=e292]
+            - generic [ref=e296] [cursor=pointer]:
+              - 'button "POST /api/posts/{id}/hide" [ref=e297]':
+                - generic [ref=e298]: POST
+                - 'link "/api/posts/{id}/hide" [ref=e301]':
+                  - /url: "#/post-controller/hidePost"
+                  - generic [ref=e302]:
+                    - text: /api
+                    - text: /posts
+                    - text: "/{id}"
+                    - text: /hide
+              - generic "Copy to clipboard"
+              - 'button "post /api/posts/{id}/hide" [ref=e305]':
+                - img [ref=e306]
+            - generic [ref=e310] [cursor=pointer]:
+              - 'button "POST /api/posts/{id}/bookmark" [ref=e311]':
+                - generic [ref=e312]: POST
+                - 'link "/api/posts/{id}/bookmark" [ref=e315]':
+                  - /url: "#/post-controller/toggleBookmark"
+                  - generic [ref=e316]:
+                    - text: /api
+                    - text: /posts
+                    - text: "/{id}"
+                    - text: /bookmark
+              - generic "Copy to clipboard"
+              - 'button "post /api/posts/{id}/bookmark" [ref=e319]':
+                - img [ref=e320]
+            - generic [ref=e324] [cursor=pointer]:
+              - 'button "GET /api/posts/{id}" [ref=e325]':
+                - generic [ref=e326]: GET
+                - 'link "/api/posts/{id}" [ref=e329]':
+                  - /url: "#/post-controller/getPost"
+                  - generic [ref=e330]:
+                    - text: /api
+                    - text: /posts
+                    - text: "/{id}"
+              - generic "Copy to clipboard"
+              - 'button "get /api/posts/{id}" [ref=e333]':
+                - img [ref=e334]
+            - generic [ref=e338] [cursor=pointer]:
+              - 'button "DELETE /api/posts/{id}" [ref=e339]':
+                - generic [ref=e340]: DELETE
+                - 'link "/api/posts/{id}" [ref=e343]':
+                  - /url: "#/post-controller/deletePost"
+                  - generic [ref=e344]:
+                    - text: /api
+                    - text: /posts
+                    - text: "/{id}"
+              - generic "Copy to clipboard"
+              - 'button "delete /api/posts/{id}" [ref=e347]':
+                - img [ref=e348]
+            - generic [ref=e352] [cursor=pointer]:
+              - 'button "PATCH /api/posts/{id}" [ref=e353]':
+                - generic [ref=e354]: PATCH
+                - 'link "/api/posts/{id}" [ref=e357]':
+                  - /url: "#/post-controller/updatePost"
+                  - generic [ref=e358]:
+                    - text: /api
+                    - text: /posts
+                    - text: "/{id}"
+              - generic "Copy to clipboard"
+              - 'button "patch /api/posts/{id}" [ref=e361]':
+                - img [ref=e362]
+            - generic [ref=e366] [cursor=pointer]:
+              - 'button "GET /api/users/{id}/reposts" [ref=e367]':
+                - generic [ref=e368]: GET
+                - 'link "/api/users/{id}/reposts" [ref=e371]':
+                  - /url: "#/post-controller/getRepostedPostsByUser"
+                  - generic [ref=e372]:
+                    - text: /api
+                    - text: /users
+                    - text: "/{id}"
+                    - text: /reposts
+              - generic "Copy to clipboard"
+              - 'button "get /api/users/{id}/reposts" [ref=e375]':
+                - img [ref=e376]
+            - generic [ref=e380] [cursor=pointer]:
+              - 'button "GET /api/users/{id}/posts" [ref=e381]':
+                - generic [ref=e382]: GET
+                - 'link "/api/users/{id}/posts" [ref=e385]':
+                  - /url: "#/post-controller/getPostsByAuthor"
+                  - generic [ref=e386]:
+                    - text: /api
+                    - text: /users
+                    - text: "/{id}"
+                    - text: /posts
+              - generic "Copy to clipboard"
+              - 'button "get /api/users/{id}/posts" [ref=e389]':
+                - img [ref=e390]
+            - generic [ref=e394] [cursor=pointer]:
+              - 'button "GET /api/users/{id}/likes" [ref=e395]':
+                - generic [ref=e396]: GET
+                - 'link "/api/users/{id}/likes" [ref=e399]':
+                  - /url: "#/post-controller/getLikedPostsByUser"
+                  - generic [ref=e400]:
+                    - text: /api
+                    - text: /users
+                    - text: "/{id}"
+                    - text: /likes
+              - generic "Copy to clipboard"
+              - 'button "get /api/users/{id}/likes" [ref=e403]':
+                - img [ref=e404]
+            - generic [ref=e408] [cursor=pointer]:
+              - 'button "GET /api/users/{id}/bookmarks" [ref=e409]':
+                - generic [ref=e410]: GET
+                - 'link "/api/users/{id}/bookmarks" [ref=e413]':
+                  - /url: "#/post-controller/getBookmarkedPostsByUser"
+                  - generic [ref=e414]:
+                    - text: /api
+                    - text: /users
+                    - text: "/{id}"
+                    - text: /bookmarks
+              - generic "Copy to clipboard"
+              - 'button "get /api/users/{id}/bookmarks" [ref=e417]':
+                - img [ref=e418]
+            - generic [ref=e422] [cursor=pointer]:
+              - 'button "GET /api/posts/tag/{tag}" [ref=e423]':
+                - generic [ref=e424]: GET
+                - 'link "/api/posts/tag/{tag}" [ref=e427]':
+                  - /url: "#/post-controller/getPostsByTag"
+                  - generic [ref=e428]:
+                    - text: /api
+                    - text: /posts
+                    - text: /tag
+                    - text: "/{tag}"
+              - generic "Copy to clipboard"
+              - 'button "get /api/posts/tag/{tag}" [ref=e431]':
+                - img [ref=e432]
+            - generic [ref=e436] [cursor=pointer]:
+              - button "GET /api/posts/search" [ref=e437]:
+                - generic [ref=e438]: GET
+                - link "/api/posts/search" [ref=e441]:
+                  - /url: "#/post-controller/searchPosts"
+                  - generic [ref=e442]:
+                    - text: /api
+                    - text: /posts
+                    - text: /search
+              - generic "Copy to clipboard"
+              - button "get /api/posts/search" [ref=e445]:
+                - img [ref=e446]
+        - generic [ref=e449]:
+          - heading "comment-controller Collapse operation" [level=3] [ref=e450] [cursor=pointer]:
+            - link "comment-controller" [ref=e451]:
+              - /url: "#/comment-controller"
+            - button "Collapse operation" [expanded] [ref=e452]:
+              - img [ref=e453]
+          - generic [ref=e456]:
+            - generic [ref=e459] [cursor=pointer]:
+              - 'button "GET /api/posts/{postId}/comments" [ref=e460]':
+                - generic [ref=e461]: GET
+                - 'link "/api/posts/{postId}/comments" [ref=e464]':
+                  - /url: "#/comment-controller/listComments"
+                  - generic [ref=e465]:
+                    - text: /api
+                    - text: /posts
+                    - text: "/{postId}"
+                    - text: /comments
+              - generic "Copy to clipboard"
+              - 'button "get /api/posts/{postId}/comments" [ref=e468]':
+                - img [ref=e469]
+            - generic [ref=e473] [cursor=pointer]:
+              - 'button "POST /api/posts/{postId}/comments" [ref=e474]':
+                - generic [ref=e475]: POST
+                - 'link "/api/posts/{postId}/comments" [ref=e478]':
+                  - /url: "#/comment-controller/createComment"
+                  - generic [ref=e479]:
+                    - text: /api
+                    - text: /posts
+                    - text: "/{postId}"
+                    - text: /comments
+              - generic "Copy to clipboard"
+              - 'button "post /api/posts/{postId}/comments" [ref=e482]':
+                - img [ref=e483]
+        - generic [ref=e486]:
+          - heading "notification-controller Collapse operation" [level=3] [ref=e487] [cursor=pointer]:
+            - link "notification-controller" [ref=e488]:
+              - /url: "#/notification-controller"
+            - button "Collapse operation" [expanded] [ref=e489]:
+              - img [ref=e490]
+          - generic [ref=e493]:
+            - generic [ref=e496] [cursor=pointer]:
+              - 'button "POST /api/notifications/{id}/read" [ref=e497]':
+                - generic [ref=e498]: POST
+                - 'link "/api/notifications/{id}/read" [ref=e501]':
+                  - /url: "#/notification-controller/markAsRead"
+                  - generic [ref=e502]:
+                    - text: /api
+                    - text: /notifications
+                    - text: "/{id}"
+                    - text: /read
+              - generic "Copy to clipboard"
+              - 'button "post /api/notifications/{id}/read" [ref=e505]':
+                - img [ref=e506]
+            - generic [ref=e510] [cursor=pointer]:
+              - button "POST /api/notifications/read-all" [ref=e511]:
+                - generic [ref=e512]: POST
+                - link "/api/notifications/read-all" [ref=e515]:
+                  - /url: "#/notification-controller/markAllAsRead"
+                  - generic [ref=e516]:
+                    - text: /api
+                    - text: /notifications
+                    - text: /read-all
+              - generic "Copy to clipboard"
+              - button "post /api/notifications/read-all" [ref=e519]:
+                - img [ref=e520]
+            - generic [ref=e524] [cursor=pointer]:
+              - button "GET /api/notifications" [ref=e525]:
+                - generic [ref=e526]: GET
+                - link "/api/notifications" [ref=e529]:
+                  - /url: "#/notification-controller/listNotifications"
+                  - generic [ref=e530]:
+                    - text: /api
+                    - text: /notifications
+              - generic "Copy to clipboard"
+              - button "get /api/notifications" [ref=e533]:
+                - img [ref=e534]
+        - generic [ref=e537]:
+          - heading "auth-controller Collapse operation" [level=3] [ref=e538] [cursor=pointer]:
+            - link "auth-controller" [ref=e539]:
+              - /url: "#/auth-controller"
+            - button "Collapse operation" [expanded] [ref=e540]:
+              - img [ref=e541]
+          - generic [ref=e544]:
+            - generic [ref=e547] [cursor=pointer]:
+              - button "POST /api/auth/reset-password" [ref=e548]:
+                - generic [ref=e549]: POST
+                - link "/api/auth/reset-password" [ref=e552]:
+                  - /url: "#/auth-controller/resetPassword"
+                  - generic [ref=e553]:
+                    - text: /api
+                    - text: /auth
+                    - text: /reset-password
+              - generic "Copy to clipboard"
+              - button "post /api/auth/reset-password" [ref=e556]:
+                - img [ref=e557]
+            - generic [ref=e561] [cursor=pointer]:
+              - button "POST /api/auth/register" [ref=e562]:
+                - generic [ref=e563]: POST
+                - link "/api/auth/register" [ref=e566]:
+                  - /url: "#/auth-controller/register"
+                  - generic [ref=e567]:
+                    - text: /api
+                    - text: /auth
+                    - text: /register
+              - generic "Copy to clipboard"
+              - button "post /api/auth/register" [ref=e570]:
+                - img [ref=e571]
+            - generic [ref=e574]:
+              - generic [ref=e575] [cursor=pointer]:
+                - button "POST /api/auth/login" [expanded] [active] [ref=e576]:
+                  - generic [ref=e577]: POST
+                  - link "/api/auth/login" [ref=e580]:
+                    - /url: "#/auth-controller/login"
+                    - generic [ref=e581]:
+                      - text: /api
+                      - text: /auth
+                      - text: /login
+                - generic "Copy to clipboard" [ref=e1073]:
+                  - img [ref=e1074]
+                - button "post /api/auth/login" [expanded] [ref=e584]:
+                  - img [ref=e1075]
+              - generic [ref=e1078]:
+                - generic [ref=e1079]:
+                  - generic [ref=e1080]:
+                    - heading "Parameters" [level=4] [ref=e1083] [cursor=pointer]
+                    - button "Try it out" [ref=e1085] [cursor=pointer]
+                  - paragraph [ref=e1088]: No parameters
+                  - generic [ref=e1089]:
+                    - generic [ref=e1090]:
+                      - heading "Request bodyrequired" [level=4] [ref=e1091]
+                      - combobox "Request content type" [ref=e1094]:
+                        - option "application/json" [selected]
+                    - generic [ref=e1097]:
+                      - tablist [ref=e1098]:
+                        - tab "Example Value" [selected] [ref=e1099] [cursor=pointer]
+                        - tab "Schema" [ref=e1100] [cursor=pointer]
+                      - tabpanel "Example Value" [ref=e1101]:
+                        - code [ref=e1104]: "{ \"username\": \"string\", \"password\": \"string\" }"
+                - generic [ref=e1106]:
+                  - heading "Responses" [level=4] [ref=e1108]
+                  - region [ref=e1110]:
+                    - rowgroup [ref=e1111]:
+                      - row "Code Description Links" [ref=e1112]:
+                        - cell "Code" [ref=e1113]
+                        - cell "Description" [ref=e1114]
+                        - cell "Links" [ref=e1115]
+                    - rowgroup [ref=e1116]:
+                      - row "200 OK Media type */* Controls Accept header. Example Value No links" [ref=e1117]:
+                        - cell "200" [ref=e1118]
+                        - cell "OK Media type */* Controls Accept header. Example Value" [ref=e1119]:
+                          - paragraph [ref=e1122]: OK
+                          - generic [ref=e1124]:
+                            - generic [ref=e1125]: Media type
+                            - combobox "Media Type" [ref=e1127]:
+                              - option "*/*" [selected]
+                            - generic [ref=e1128]:
+                              - text: Controls
+                              - code [ref=e1129]: Accept
+                              - text: header.
+                          - generic [ref=e1130]:
+                            - tablist [ref=e1131]:
+                              - tab "Example Value" [selected] [ref=e1132] [cursor=pointer]
+                              - tab "Schema" [ref=e1133] [cursor=pointer]
+                            - tabpanel "Example Value" [ref=e1134]:
+                              - code [ref=e1138]: "{ \"token\": \"string\", \"user\": { \"id\": \"string\", \"username\": \"string\", \"nickname\": \"string\", \"avatar\": \"string\", \"coverUrl\": \"string\", \"bio\": \"string\", \"role\": \"string\", \"status\": \"string\", \"muteStatus\": \"string\", \"createdAt\": \"string\", \"followersCount\": 0, \"followingCount\": 0, \"isFollowing\": true } }"
+                        - cell "No links" [ref=e1139]
+            - generic [ref=e589] [cursor=pointer]:
+              - button "GET /api/auth/me" [ref=e590]:
+                - generic [ref=e591]: GET
+                - link "/api/auth/me" [ref=e594]:
+                  - /url: "#/auth-controller/currentUser"
+                  - generic [ref=e595]:
+                    - text: /api
+                    - text: /auth
+                    - text: /me
+              - generic "Copy to clipboard"
+              - button "get /api/auth/me" [ref=e598]:
+                - img [ref=e599]
+        - generic [ref=e602]:
+          - heading "ai-controller Collapse operation" [level=3] [ref=e603] [cursor=pointer]:
+            - link "ai-controller" [ref=e604]:
+              - /url: "#/ai-controller"
+            - button "Collapse operation" [expanded] [ref=e605]:
+              - img [ref=e606]
+          - generic [ref=e609]:
+            - generic [ref=e612] [cursor=pointer]:
+              - button "GET /api/ai/conversations" [ref=e613]:
+                - generic [ref=e614]: GET
+                - link "/api/ai/conversations" [ref=e617]:
+                  - /url: "#/ai-controller/getConversations"
+                  - generic [ref=e618]:
+                    - text: /api
+                    - text: /ai
+                    - text: /conversations
+              - generic "Copy to clipboard"
+              - button "get /api/ai/conversations" [ref=e621]:
+                - img [ref=e622]
+            - generic [ref=e626] [cursor=pointer]:
+              - button "POST /api/ai/conversations" [ref=e627]:
+                - generic [ref=e628]: POST
+                - link "/api/ai/conversations" [ref=e631]:
+                  - /url: "#/ai-controller/createConversation"
+                  - generic [ref=e632]:
+                    - text: /api
+                    - text: /ai
+                    - text: /conversations
+              - generic "Copy to clipboard"
+              - button "post /api/ai/conversations" [ref=e635]:
+                - img [ref=e636]
+            - generic [ref=e640] [cursor=pointer]:
+              - 'button "POST /api/ai/conversations/{id}/retry" [ref=e641]':
+                - generic [ref=e642]: POST
+                - 'link "/api/ai/conversations/{id}/retry" [ref=e645]':
+                  - /url: "#/ai-controller/retry"
+                  - generic [ref=e646]:
+                    - text: /api
+                    - text: /ai
+                    - text: /conversations
+                    - text: "/{id}"
+                    - text: /retry
+              - generic "Copy to clipboard"
+              - 'button "post /api/ai/conversations/{id}/retry" [ref=e649]':
+                - img [ref=e650]
+            - generic [ref=e654] [cursor=pointer]:
+              - 'button "POST /api/ai/conversations/{id}/messages/stream" [ref=e655]':
+                - generic [ref=e656]: POST
+                - 'link "/api/ai/conversations/{id}/messages/stream" [ref=e659]':
+                  - /url: "#/ai-controller/streamMessage"
+                  - generic [ref=e660]:
+                    - text: /api
+                    - text: /ai
+                    - text: /conversations
+                    - text: "/{id}"
+                    - text: /messages
+                    - text: /stream
+              - generic "Copy to clipboard"
+              - 'button "post /api/ai/conversations/{id}/messages/stream" [ref=e663]':
+                - img [ref=e664]
+            - generic [ref=e668] [cursor=pointer]:
+              - 'button "GET /api/ai/conversations/{id}" [ref=e669]':
+                - generic [ref=e670]: GET
+                - 'link "/api/ai/conversations/{id}" [ref=e673]':
+                  - /url: "#/ai-controller/getConversation"
+                  - generic [ref=e674]:
+                    - text: /api
+                    - text: /ai
+                    - text: /conversations
+                    - text: "/{id}"
+              - generic "Copy to clipboard"
+              - 'button "get /api/ai/conversations/{id}" [ref=e677]':
+                - img [ref=e678]
+        - generic [ref=e681]:
+          - heading "admin-controller Collapse operation" [level=3] [ref=e682] [cursor=pointer]:
+            - link "admin-controller" [ref=e683]:
+              - /url: "#/admin-controller"
+            - button "Collapse operation" [expanded] [ref=e684]:
+              - img [ref=e685]
+          - generic [ref=e688]:
+            - generic [ref=e691] [cursor=pointer]:
+              - 'button "POST /api/admin/users/{id}/unmute" [ref=e692]':
+                - generic [ref=e693]: POST
+                - 'link "/api/admin/users/{id}/unmute" [ref=e696]':
+                  - /url: "#/admin-controller/unmuteUser"
+                  - generic [ref=e697]:
+                    - text: /api
+                    - text: /admin
+                    - text: /users
+                    - text: "/{id}"
+                    - text: /unmute
+              - generic "Copy to clipboard"
+              - 'button "post /api/admin/users/{id}/unmute" [ref=e700]':
+                - img [ref=e701]
+            - generic [ref=e705] [cursor=pointer]:
+              - 'button "POST /api/admin/users/{id}/unban" [ref=e706]':
+                - generic [ref=e707]: POST
+                - 'link "/api/admin/users/{id}/unban" [ref=e710]':
+                  - /url: "#/admin-controller/unbanUser"
+                  - generic [ref=e711]:
+                    - text: /api
+                    - text: /admin
+                    - text: /users
+                    - text: "/{id}"
+                    - text: /unban
+              - generic "Copy to clipboard"
+              - 'button "post /api/admin/users/{id}/unban" [ref=e714]':
+                - img [ref=e715]
+            - generic [ref=e719] [cursor=pointer]:
+              - 'button "POST /api/admin/users/{id}/mute" [ref=e720]':
+                - generic [ref=e721]: POST
+                - 'link "/api/admin/users/{id}/mute" [ref=e724]':
+                  - /url: "#/admin-controller/muteUser"
+                  - generic [ref=e725]:
+                    - text: /api
+                    - text: /admin
+                    - text: /users
+                    - text: "/{id}"
+                    - text: /mute
+              - generic "Copy to clipboard"
+              - 'button "post /api/admin/users/{id}/mute" [ref=e728]':
+                - img [ref=e729]
+            - generic [ref=e733] [cursor=pointer]:
+              - 'button "POST /api/admin/users/{id}/ban" [ref=e734]':
+                - generic [ref=e735]: POST
+                - 'link "/api/admin/users/{id}/ban" [ref=e738]':
+                  - /url: "#/admin-controller/banUser"
+                  - generic [ref=e739]:
+                    - text: /api
+                    - text: /admin
+                    - text: /users
+                    - text: "/{id}"
+                    - text: /ban
+              - generic "Copy to clipboard"
+              - 'button "post /api/admin/users/{id}/ban" [ref=e742]':
+                - img [ref=e743]
+            - generic [ref=e747] [cursor=pointer]:
+              - 'button "POST /api/admin/reports/{id}/resolve" [ref=e748]':
+                - generic [ref=e749]: POST
+                - 'link "/api/admin/reports/{id}/resolve" [ref=e752]':
+                  - /url: "#/admin-controller/resolveReport"
+                  - generic [ref=e753]:
+                    - text: /api
+                    - text: /admin
+                    - text: /reports
+                    - text: "/{id}"
+                    - text: /resolve
+              - generic "Copy to clipboard"
+              - 'button "post /api/admin/reports/{id}/resolve" [ref=e756]':
+                - img [ref=e757]
+            - generic [ref=e761] [cursor=pointer]:
+              - 'button "POST /api/admin/posts/{id}/withdraw" [ref=e762]':
+                - generic [ref=e763]: POST
+                - 'link "/api/admin/posts/{id}/withdraw" [ref=e766]':
+                  - /url: "#/admin-controller/withdrawPost"
+                  - generic [ref=e767]:
+                    - text: /api
+                    - text: /admin
+                    - text: /posts
+                    - text: "/{id}"
+                    - text: /withdraw
+              - generic "Copy to clipboard"
+              - 'button "post /api/admin/posts/{id}/withdraw" [ref=e770]':
+                - img [ref=e771]
+            - generic [ref=e775] [cursor=pointer]:
+              - button "GET /api/admin/users" [ref=e776]:
+                - generic [ref=e777]: GET
+                - link "/api/admin/users" [ref=e780]:
+                  - /url: "#/admin-controller/getUsers"
+                  - generic [ref=e781]:
+                    - text: /api
+                    - text: /admin
+                    - text: /users
+              - generic "Copy to clipboard"
+              - button "get /api/admin/users" [ref=e784]:
+                - img [ref=e785]
+            - generic [ref=e789] [cursor=pointer]:
+              - button "GET /api/admin/reports" [ref=e790]:
+                - generic [ref=e791]: GET
+                - link "/api/admin/reports" [ref=e794]:
+                  - /url: "#/admin-controller/getReports"
+                  - generic [ref=e795]:
+                    - text: /api
+                    - text: /admin
+                    - text: /reports
+              - generic "Copy to clipboard"
+              - button "get /api/admin/reports" [ref=e798]:
+                - img [ref=e799]
+            - generic [ref=e803] [cursor=pointer]:
+              - button "GET /api/admin/posts" [ref=e804]:
+                - generic [ref=e805]: GET
+                - link "/api/admin/posts" [ref=e808]:
+                  - /url: "#/admin-controller/getPosts"
+                  - generic [ref=e809]:
+                    - text: /api
+                    - text: /admin
+                    - text: /posts
+              - generic "Copy to clipboard"
+              - button "get /api/admin/posts" [ref=e812]:
+                - img [ref=e813]
+            - generic [ref=e817] [cursor=pointer]:
+              - button "GET /api/admin/posts/recent" [ref=e818]:
+                - generic [ref=e819]: GET
+                - link "/api/admin/posts/recent" [ref=e822]:
+                  - /url: "#/admin-controller/getRecentPosts"
+                  - generic [ref=e823]:
+                    - text: /api
+                    - text: /admin
+                    - text: /posts
+                    - text: /recent
+              - generic "Copy to clipboard"
+              - button "get /api/admin/posts/recent" [ref=e826]:
+                - img [ref=e827]
+            - generic [ref=e831] [cursor=pointer]:
+              - button "GET /api/admin/overview" [ref=e832]:
+                - generic [ref=e833]: GET
+                - link "/api/admin/overview" [ref=e836]:
+                  - /url: "#/admin-controller/getOverview"
+                  - generic [ref=e837]:
+                    - text: /api
+                    - text: /admin
+                    - text: /overview
+              - generic "Copy to clipboard"
+              - button "get /api/admin/overview" [ref=e840]:
+                - img [ref=e841]
+            - generic [ref=e845] [cursor=pointer]:
+              - button "GET /api/admin/comments" [ref=e846]:
+                - generic [ref=e847]: GET
+                - link "/api/admin/comments" [ref=e850]:
+                  - /url: "#/admin-controller/getComments"
+                  - generic [ref=e851]:
+                    - text: /api
+                    - text: /admin
+                    - text: /comments
+              - generic "Copy to clipboard"
+              - button "get /api/admin/comments" [ref=e854]:
+                - img [ref=e855]
+            - generic [ref=e859] [cursor=pointer]:
+              - 'button "DELETE /api/admin/posts/{id}" [ref=e860]':
+                - generic [ref=e861]: DELETE
+                - 'link "/api/admin/posts/{id}" [ref=e864]':
+                  - /url: "#/admin-controller/deletePost_1"
+                  - generic [ref=e865]:
+                    - text: /api
+                    - text: /admin
+                    - text: /posts
+                    - text: "/{id}"
+              - generic "Copy to clipboard"
+              - 'button "delete /api/admin/posts/{id}" [ref=e868]':
+                - img [ref=e869]
+            - generic [ref=e873] [cursor=pointer]:
+              - 'button "DELETE /api/admin/comments/{id}" [ref=e874]':
+                - generic [ref=e875]: DELETE
+                - 'link "/api/admin/comments/{id}" [ref=e878]':
+                  - /url: "#/admin-controller/deleteComment"
+                  - generic [ref=e879]:
+                    - text: /api
+                    - text: /admin
+                    - text: /comments
+                    - text: "/{id}"
+              - generic "Copy to clipboard"
+              - 'button "delete /api/admin/comments/{id}" [ref=e882]':
+                - img [ref=e883]
+        - generic [ref=e886]:
+          - heading "topic-controller Collapse operation" [level=3] [ref=e887] [cursor=pointer]:
+            - link "topic-controller" [ref=e888]:
+              - /url: "#/topic-controller"
+            - button "Collapse operation" [expanded] [ref=e889]:
+              - img [ref=e890]
+          - generic [ref=e896] [cursor=pointer]:
+            - button "GET /api/topics/trending" [ref=e897]:
+              - generic [ref=e898]: GET
+              - link "/api/topics/trending" [ref=e901]:
+                - /url: "#/topic-controller/getTrendingTopics"
+                - generic [ref=e902]:
+                  - text: /api
+                  - text: /topics
+                  - text: /trending
+            - generic "Copy to clipboard"
+            - button "get /api/topics/trending" [ref=e905]:
+              - img [ref=e906]
+      - generic [ref=e910]:
+        - heading "Schemas" [level=4] [ref=e911] [cursor=pointer]:
+          - button "Schemas" [expanded] [ref=e912]:
+            - generic [ref=e913]: Schemas
+            - img [ref=e914]
+        - generic [ref=e916]:
+          - button "UploadResponse" [ref=e919] [cursor=pointer]:
+            - generic [ref=e921]: UploadResponse
+          - button "CreatePostRequest" [ref=e925] [cursor=pointer]:
+            - generic [ref=e927]: CreatePostRequest
+          - button "PostResponse" [ref=e931] [cursor=pointer]:
+            - generic [ref=e933]: PostResponse
+          - button "UserResponse" [ref=e937] [cursor=pointer]:
+            - generic [ref=e939]: UserResponse
+          - button "CreateCommentRequest" [ref=e943] [cursor=pointer]:
+            - generic [ref=e945]: CreateCommentRequest
+          - button "CommentResponse" [ref=e949] [cursor=pointer]:
+            - generic [ref=e951]: CommentResponse
+          - button "RepublishPostRequest" [ref=e955] [cursor=pointer]:
+            - generic [ref=e957]: RepublishPostRequest
+          - button "ReportPostRequest" [ref=e961] [cursor=pointer]:
+            - generic [ref=e963]: ReportPostRequest
+          - button "ResetPasswordRequest" [ref=e967] [cursor=pointer]:
+            - generic [ref=e969]: ResetPasswordRequest
+          - button "RegisterRequest" [ref=e973] [cursor=pointer]:
+            - generic [ref=e975]: RegisterRequest
+          - button "LoginResponse" [ref=e979] [cursor=pointer]:
+            - generic [ref=e981]: LoginResponse
+          - button "LoginRequest" [ref=e985] [cursor=pointer]:
+            - generic [ref=e987]: LoginRequest
+          - button "AiConversationDetailResponse" [ref=e991] [cursor=pointer]:
+            - generic [ref=e993]: AiConversationDetailResponse
+          - button "AiMessageResponse" [ref=e997] [cursor=pointer]:
+            - generic [ref=e999]: AiMessageResponse
+          - button "SseEmitter" [ref=e1003] [cursor=pointer]:
+            - generic [ref=e1005]: SseEmitter
+          - button "AiStreamMessageRequest" [ref=e1009] [cursor=pointer]:
+            - generic [ref=e1011]: AiStreamMessageRequest
+          - button "ModerationActionRequest" [ref=e1015] [cursor=pointer]:
+            - generic [ref=e1017]: ModerationActionRequest
+          - button "UpdateProfileRequest" [ref=e1021] [cursor=pointer]:
+            - generic [ref=e1023]: UpdateProfileRequest
+          - button "ChangePasswordRequest" [ref=e1027] [cursor=pointer]:
+            - generic [ref=e1029]: ChangePasswordRequest
+          - button "UpdatePostRequest" [ref=e1033] [cursor=pointer]:
+            - generic [ref=e1035]: UpdatePostRequest
+          - button "TopicResponse" [ref=e1039] [cursor=pointer]:
+            - generic [ref=e1041]: TopicResponse
+          - button "NotificationResponse" [ref=e1045] [cursor=pointer]:
+            - generic [ref=e1047]: NotificationResponse
+          - button "AiConversationResponse" [ref=e1051] [cursor=pointer]:
+            - generic [ref=e1053]: AiConversationResponse
+          - button "AdminReportPostResponse" [ref=e1057] [cursor=pointer]:
+            - generic [ref=e1059]: AdminReportPostResponse
+          - button "AdminReportResponse" [ref=e1063] [cursor=pointer]:
+            - generic [ref=e1065]: AdminReportResponse
+          - button "AdminOverviewResponse" [ref=e1069] [cursor=pointer]:
+            - generic [ref=e1071]: AdminOverviewResponse

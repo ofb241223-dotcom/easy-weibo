@@ -1,0 +1,29 @@
+- generic [ref=e787]:
+  - generic [ref=e789]:
+    - img "HNUST logo" [ref=e790]
+    - generic [ref=e791]:
+      - paragraph [ref=e792]: HNUST Easy WeiBo
+      - paragraph [ref=e793]: 校园社交分享平台
+  - generic [ref=e826]:
+    - heading "重置 HNUST Easy WeiBo 密码" [level=1] [ref=e861]
+    - paragraph [ref=e828]: 输入用户名、昵称和新密码，完成演示版密码重置。
+    - generic [ref=e862]: 昵称
+    - textbox "昵称" [ref=e864]:
+      - /placeholder: 请输入昵称
+    - generic [ref=e829]: 用户名
+    - textbox "用户名" [ref=e831]:
+      - /placeholder: 请输入需要重置的用户名
+    - generic [ref=e832]: 密码
+    - generic [ref=e833]:
+      - textbox "密码" [ref=e834]:
+        - /placeholder: 至少 6 位密码
+      - button [ref=e835] [cursor=pointer]:
+        - img [ref=e836]
+    - generic [ref=e865]: 确认密码
+    - textbox "确认密码" [ref=e867]:
+      - /placeholder: 再次输入密码
+    - paragraph [ref=e868]: 重置成功后可直接返回登录页使用新密码登录。
+    - button "重置密码" [ref=e869] [cursor=pointer]
+    - paragraph [ref=e845]:
+      - text: 想起密码了？
+      - button "返回登录" [ref=e870] [cursor=pointer]

@@ -1,0 +1,290 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e8]:
+        - img "HNUST logo" [ref=e9]
+        - generic [ref=e10]: Easy WeiBo
+      - navigation [ref=e11]:
+        - link "首页" [ref=e12] [cursor=pointer]:
+          - /url: /
+          - img [ref=e14]
+          - generic [ref=e17]: 首页
+        - link "发现" [ref=e18] [cursor=pointer]:
+          - /url: /search
+          - img [ref=e20]
+          - generic [ref=e23]: 发现
+        - link "话题" [ref=e24] [cursor=pointer]:
+          - /url: /topics
+          - img [ref=e26]
+          - generic [ref=e29]: 话题
+        - link "2 通知" [ref=e30] [cursor=pointer]:
+          - /url: /notifications
+          - generic [ref=e31]:
+            - img [ref=e32]
+            - generic [ref=e35]: "2"
+          - generic [ref=e36]: 通知
+        - link "个人主页" [ref=e37] [cursor=pointer]:
+          - /url: /profile/admin
+          - img [ref=e39]
+          - generic [ref=e42]: 个人主页
+        - link "关注列表" [ref=e43] [cursor=pointer]:
+          - /url: /connections
+          - img [ref=e45]
+          - generic [ref=e48]: 关注列表
+        - link "聊天" [ref=e49] [cursor=pointer]:
+          - /url: /chat
+          - img [ref=e51]
+          - generic [ref=e53]: 聊天
+        - link "控制台" [active] [ref=e54] [cursor=pointer]:
+          - /url: /admin
+          - img [ref=e56]
+          - generic [ref=e61]: 控制台
+        - link "设置" [ref=e62] [cursor=pointer]:
+          - /url: /settings
+          - img [ref=e64]
+          - generic [ref=e67]: 设置
+        - button "深色模式" [ref=e68]:
+          - img [ref=e69]
+          - generic [ref=e71]: 深色模式
+      - button "发布" [ref=e73]:
+        - img [ref=e74]
+        - generic [ref=e76]: 发布
+      - generic [ref=e78] [cursor=pointer]:
+        - img "HNUST Admin" [ref=e79]
+        - generic [ref=e80]:
+          - paragraph [ref=e81]: HNUST Admin
+          - paragraph [ref=e82]: "@admin"
+        - button "退出登录" [ref=e83]:
+          - img [ref=e84]
+    - main [ref=e87]:
+      - generic [ref=e121]:
+        - generic [ref=e123]:
+          - button [ref=e124]:
+            - img [ref=e125]
+          - generic [ref=e127]:
+            - heading "管理员控制台" [level=1] [ref=e128]
+            - paragraph [ref=e129]: 查看关键数据、处理举报，并执行用户与内容治理。
+        - generic [ref=e130]:
+          - generic [ref=e131]:
+            - button "概览" [ref=e132]:
+              - img [ref=e133]
+              - text: 概览
+            - button "用户" [ref=e138]:
+              - img [ref=e139]
+              - text: 用户
+            - button "帖子" [ref=e142]:
+              - img [ref=e143]
+              - text: 帖子
+            - button "评论" [ref=e146]:
+              - img [ref=e147]
+              - text: 评论
+            - button "举报" [ref=e149]:
+              - img [ref=e150]
+              - text: 举报
+          - generic [ref=e152]:
+            - button "用户总数 12 查看用户状态与治理" [ref=e153]:
+              - generic [ref=e154]:
+                - generic [ref=e155]:
+                  - paragraph [ref=e156]: 用户总数
+                  - paragraph [ref=e157]: "12"
+                  - paragraph [ref=e158]: 查看用户状态与治理
+                - img [ref=e160]
+            - button "帖子总数 18 查看帖子状态与处理" [ref=e163]:
+              - generic [ref=e164]:
+                - generic [ref=e165]:
+                  - paragraph [ref=e166]: 帖子总数
+                  - paragraph [ref=e167]: "18"
+                  - paragraph [ref=e168]: 查看帖子状态与处理
+                - img [ref=e170]
+            - button "评论总数 16 查看评论并执行删除" [ref=e173]:
+              - generic [ref=e174]:
+                - generic [ref=e175]:
+                  - paragraph [ref=e176]: 评论总数
+                  - paragraph [ref=e177]: "16"
+                  - paragraph [ref=e178]: 查看评论并执行删除
+                - img [ref=e180]
+            - button "待处理举报 2 优先处理开放中的举报" [ref=e182]:
+              - generic [ref=e183]:
+                - generic [ref=e184]:
+                  - paragraph [ref=e185]: 待处理举报
+                  - paragraph [ref=e186]: "2"
+                  - paragraph [ref=e187]: 优先处理开放中的举报
+                - img [ref=e189]
+            - button "总浏览量 61 查看高曝光内容表现" [ref=e191]:
+              - generic [ref=e192]:
+                - generic [ref=e193]:
+                  - paragraph [ref=e194]: 总浏览量
+                  - paragraph [ref=e195]: "61"
+                  - paragraph [ref=e196]: 查看高曝光内容表现
+                - img [ref=e198]
+          - generic [ref=e201]:
+            - generic [ref=e202]:
+              - generic [ref=e203]:
+                - generic [ref=e204]:
+                  - heading "最近帖子" [level=2] [ref=e205]
+                  - paragraph [ref=e206]: 快速检查近期内容与潜在问题。
+                - button "查看全部" [ref=e207]
+              - generic [ref=e208]:
+                - 'button "HNUST Admin @admin ACTIVE Welcome to HNUST Easy WeiBo! Share your thoughts and connect with others. #HNUST #Welcome 2026/04/16 01:11 · 6 浏览" [ref=e209]':
+                  - generic [ref=e210]:
+                    - generic [ref=e211]:
+                      - generic [ref=e212]: HNUST Admin
+                      - generic [ref=e213]: "@admin"
+                      - generic [ref=e214]: ACTIVE
+                    - paragraph [ref=e215]: "Welcome to HNUST Easy WeiBo! Share your thoughts and connect with others. #HNUST #Welcome"
+                    - paragraph [ref=e216]: 2026/04/16 01:11 · 6 浏览
+                - button "John Doe @johndoe ACTIVE The library is so crowded today! Does anyone know a quiet place to study? 📚 2026/04/15 22:11 · 4 浏览" [ref=e217]:
+                  - generic [ref=e218]:
+                    - generic [ref=e219]:
+                      - generic [ref=e220]: John Doe
+                      - generic [ref=e221]: "@johndoe"
+                      - generic [ref=e222]: ACTIVE
+                    - paragraph [ref=e223]: The library is so crowded today! Does anyone know a quiet place to study? 📚
+                    - paragraph [ref=e224]: 2026/04/15 22:11 · 4 浏览
+                - 'button "Jane Doe @janedoe ACTIVE Just finished my first React project! It was challenging but fun. 💻✨ #Coding #React 2026/04/15 03:11 · 5 浏览" [ref=e225]':
+                  - generic [ref=e226]:
+                    - generic [ref=e227]:
+                      - generic [ref=e228]: Jane Doe
+                      - generic [ref=e229]: "@janedoe"
+                      - generic [ref=e230]: ACTIVE
+                    - paragraph [ref=e231]: "Just finished my first React project! It was challenging but fun. 💻✨ #Coding #React"
+                    - paragraph [ref=e232]: 2026/04/15 03:11 · 5 浏览
+                - 'button "Alice Chen @alice ACTIVE 今晚的校园晚霞真的太好看了，操场边一整排都在拍照。 #校园日常 2026/04/14 23:11 · 4 浏览" [ref=e233]':
+                  - generic [ref=e234]:
+                    - generic [ref=e235]:
+                      - generic [ref=e236]: Alice Chen
+                      - generic [ref=e237]: "@alice"
+                      - generic [ref=e238]: ACTIVE
+                    - paragraph [ref=e239]: "今晚的校园晚霞真的太好看了，操场边一整排都在拍照。 #校园日常"
+                    - paragraph [ref=e240]: 2026/04/14 23:11 · 4 浏览
+                - 'button "Bob Li @bob ACTIVE 数据库实验终于做完了，谁懂把索引调通的快乐。 #MySQL 2026/04/14 19:11 · 4 浏览" [ref=e241]':
+                  - generic [ref=e242]:
+                    - generic [ref=e243]:
+                      - generic [ref=e244]: Bob Li
+                      - generic [ref=e245]: "@bob"
+                      - generic [ref=e246]: ACTIVE
+                    - paragraph [ref=e247]: "数据库实验终于做完了，谁懂把索引调通的快乐。 #MySQL"
+                    - paragraph [ref=e248]: 2026/04/14 19:11 · 4 浏览
+                - button "Carol Wang @carol ACTIVE 数学建模队今晚还在机房，外卖已经点第三次了。 2026/04/14 15:11 · 3 浏览" [ref=e249]:
+                  - generic [ref=e250]:
+                    - generic [ref=e251]:
+                      - generic [ref=e252]: Carol Wang
+                      - generic [ref=e253]: "@carol"
+                      - generic [ref=e254]: ACTIVE
+                    - paragraph [ref=e255]: 数学建模队今晚还在机房，外卖已经点第三次了。
+                    - paragraph [ref=e256]: 2026/04/14 15:11 · 3 浏览
+            - generic [ref=e257]:
+              - generic [ref=e258]:
+                - generic [ref=e259]:
+                  - heading "待处理举报" [level=2] [ref=e260]
+                  - paragraph [ref=e261]: 优先处理开放中的举报单。
+                - button "查看全部" [ref=e262]
+              - generic [ref=e263]:
+                - generic [ref=e265]:
+                  - generic [ref=e266]:
+                    - generic [ref=e267]:
+                      - generic [ref=e268]: Emma Zhou
+                      - generic [ref=e269]: "@emma"
+                      - generic [ref=e270]: OPEN
+                    - paragraph [ref=e271]: 类型：other
+                    - paragraph [ref=e272]: 评论区已经吵起来了，麻烦看下。
+                  - button "处理" [ref=e273]
+                - generic [ref=e275]:
+                  - generic [ref=e276]:
+                    - generic [ref=e277]:
+                      - generic [ref=e278]: Frank Luo
+                      - generic [ref=e279]: "@frank"
+                      - generic [ref=e280]: OPEN
+                    - paragraph [ref=e281]: 类型：spam
+                    - paragraph [ref=e282]: 内容和群公告重复刷屏了。
+                  - button "处理" [ref=e283]
+    - generic [ref=e91]:
+      - generic [ref=e93]:
+        - img [ref=e94]
+        - textbox "搜索 WeiBo" [ref=e97]
+      - generic [ref=e98]:
+        - heading "热门话题" [level=2] [ref=e99]
+        - 'button "正在热议 #Coding 1 帖子" [ref=e284]':
+          - paragraph [ref=e285]: 正在热议
+          - paragraph [ref=e286]: "#Coding"
+          - paragraph [ref=e287]: 1 帖子
+        - 'button "正在热议 #HNUST 1 帖子" [ref=e288]':
+          - paragraph [ref=e289]: 正在热议
+          - paragraph [ref=e290]: "#HNUST"
+          - paragraph [ref=e291]: 1 帖子
+        - 'button "正在热议 #Linux 1 帖子" [ref=e292]':
+          - paragraph [ref=e293]: 正在热议
+          - paragraph [ref=e294]: "#Linux"
+          - paragraph [ref=e295]: 1 帖子
+        - 'button "正在热议 #MySQL 1 帖子" [ref=e296]':
+          - paragraph [ref=e297]: 正在热议
+          - paragraph [ref=e298]: "#MySQL"
+          - paragraph [ref=e299]: 1 帖子
+        - 'button "正在热议 #React 1 帖子" [ref=e300]':
+          - paragraph [ref=e301]: 正在热议
+          - paragraph [ref=e302]: "#React"
+          - paragraph [ref=e303]: 1 帖子
+        - 'button "正在热议 #SpringBoot 1 帖子" [ref=e304]':
+          - paragraph [ref=e305]: 正在热议
+          - paragraph [ref=e306]: "#SpringBoot"
+          - paragraph [ref=e307]: 1 帖子
+        - button "显示更多" [ref=e100]
+      - generic [ref=e101]:
+        - heading "推荐关注" [level=2] [ref=e102]
+        - generic [ref=e308]:
+          - link "Frank Luo Frank Luo @frank" [ref=e309] [cursor=pointer]:
+            - /url: /profile/frank
+            - img "Frank Luo" [ref=e310]
+            - generic [ref=e311]:
+              - paragraph [ref=e312]: Frank Luo
+              - paragraph [ref=e313]: "@frank"
+          - button "关注" [ref=e314]
+        - generic [ref=e315]:
+          - link "Bob Li Bob Li @bob" [ref=e316] [cursor=pointer]:
+            - /url: /profile/bob
+            - img "Bob Li" [ref=e317]
+            - generic [ref=e318]:
+              - paragraph [ref=e319]: Bob Li
+              - paragraph [ref=e320]: "@bob"
+          - button "已关注" [ref=e321]
+        - generic [ref=e322]:
+          - link "Alice Chen Alice Chen @alice" [ref=e323] [cursor=pointer]:
+            - /url: /profile/alice
+            - img "Alice Chen" [ref=e324]
+            - generic [ref=e325]:
+              - paragraph [ref=e326]: Alice Chen
+              - paragraph [ref=e327]: "@alice"
+          - button "已关注" [ref=e328]
+        - generic [ref=e329]:
+          - link "Grace Yu Grace Yu @grace" [ref=e330] [cursor=pointer]:
+            - /url: /profile/grace
+            - img "Grace Yu" [ref=e331]
+            - generic [ref=e332]:
+              - paragraph [ref=e333]: Grace Yu
+              - paragraph [ref=e334]: "@grace"
+          - button "关注" [ref=e335]
+        - generic [ref=e336]:
+          - link "Emma Zhou Emma Zhou @emma" [ref=e337] [cursor=pointer]:
+            - /url: /profile/emma
+            - img "Emma Zhou" [ref=e338]
+            - generic [ref=e339]:
+              - paragraph [ref=e340]: Emma Zhou
+              - paragraph [ref=e341]: "@emma"
+          - button "关注" [ref=e342]
+        - button "显示更多" [ref=e103]
+      - generic [ref=e105]:
+        - generic [ref=e106]: 服务条款
+        - generic [ref=e107]: "|"
+        - generic [ref=e108]: 隐私政策
+        - generic [ref=e109]: "|"
+        - generic [ref=e110]: Cookie 政策
+        - generic [ref=e111]: "|"
+        - generic [ref=e112]: 无障碍
+        - generic [ref=e113]: "|"
+        - generic [ref=e114]: 广告信息
+        - generic [ref=e115]: "|"
+        - generic [ref=e116]: 更多…
+        - generic [ref=e117]: "|"
+        - generic [ref=e118]: © 2026 HNUST Easy WeiBo
+  - button "打开 Gemini 对话" [ref=e119]:
+    - img "Gemini" [ref=e120]

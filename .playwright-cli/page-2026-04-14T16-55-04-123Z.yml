@@ -1,0 +1,27 @@
+- generic [ref=e421]:
+  - generic [ref=e423]:
+    - img "HNUST logo" [ref=e424]
+    - generic [ref=e425]:
+      - paragraph [ref=e426]: HNUST Easy WeiBo
+      - paragraph [ref=e427]: 校园社交分享平台
+  - generic [ref=e460]:
+    - heading "登录到 HNUST Easy WeiBo" [level=1] [ref=e461]
+    - paragraph [ref=e462]: 使用校园账号进入信息流、通知和个人主页。
+    - generic [ref=e463]: 用户名
+    - textbox "用户名" [ref=e465]:
+      - /placeholder: admin / johndoe / janedoe
+      - text: admin
+    - generic [ref=e466]: 密码
+    - generic [ref=e467]:
+      - textbox "密码" [ref=e468]:
+        - /placeholder: 请输入密码
+        - text: password123
+      - button [ref=e469] [cursor=pointer]:
+        - img [ref=e470]
+    - generic [ref=e473]:
+      - generic [ref=e476] [cursor=pointer]: 记住这台设备
+      - button "忘记密码？" [ref=e477] [cursor=pointer]
+    - button "登录" [ref=e478] [cursor=pointer]
+    - paragraph [ref=e479]:
+      - text: 还没有账号？
+      - button "立即注册" [ref=e480] [cursor=pointer]

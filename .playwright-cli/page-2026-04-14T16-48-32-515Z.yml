@@ -1,0 +1,189 @@
+- generic [ref=e853]:
+  - generic [ref=e855]:
+    - img "HNUST logo" [ref=e857]
+    - navigation [ref=e858]:
+      - link "首页" [ref=e859] [cursor=pointer]:
+        - /url: /
+        - img [ref=e861]
+        - generic [ref=e864]: 首页
+      - link "发现" [ref=e865] [cursor=pointer]:
+        - /url: /search
+        - img [ref=e867]
+        - generic [ref=e870]: 发现
+      - link "话题" [ref=e871] [cursor=pointer]:
+        - /url: /topics
+        - img [ref=e873]
+        - generic [ref=e876]: 话题
+      - link "1 通知" [ref=e877] [cursor=pointer]:
+        - /url: /notifications
+        - generic [ref=e878]:
+          - img [ref=e879]
+          - generic [ref=e882]: "1"
+        - generic [ref=e883]: 通知
+      - link "个人主页" [ref=e884] [cursor=pointer]:
+        - /url: /profile/admin
+        - img [ref=e886]
+        - generic [ref=e889]: 个人主页
+      - link "控制台" [ref=e890] [cursor=pointer]:
+        - /url: /admin
+        - img [ref=e892]
+        - generic [ref=e897]: 控制台
+      - link "设置" [ref=e898] [cursor=pointer]:
+        - /url: /settings
+        - img [ref=e900]
+        - generic [ref=e903]: 设置
+      - button "深色模式" [ref=e904]:
+        - img [ref=e905]
+        - generic [ref=e907]: 深色模式
+    - generic [ref=e908]:
+      - button "发布" [ref=e909]:
+        - img [ref=e910]
+        - generic [ref=e912]: 发布
+      - generic [ref=e913] [cursor=pointer]:
+        - img "HNUST Admin" [ref=e914]
+        - generic [ref=e915]:
+          - paragraph [ref=e916]: HNUST Admin
+          - paragraph [ref=e917]: "@admin"
+        - button "退出登录" [ref=e918]:
+          - img [ref=e919]
+  - main [ref=e922]:
+    - generic [ref=e1157]:
+      - generic [ref=e1159]:
+        - button [ref=e1160]:
+          - img [ref=e1161]
+        - generic [ref=e1163]:
+          - heading "管理员控制台" [level=1] [ref=e1164]
+          - paragraph [ref=e1165]: 查看关键数据、处理举报，并执行用户与内容治理。
+      - generic [ref=e1166]:
+        - generic [ref=e1167]:
+          - button "概览" [ref=e1168]:
+            - img [ref=e1169]
+            - text: 概览
+          - button "用户" [ref=e1174]:
+            - img [ref=e1175]
+            - text: 用户
+          - button "帖子" [ref=e1178]:
+            - img [ref=e1179]
+            - text: 帖子
+          - button "评论" [ref=e1182]:
+            - img [ref=e1183]
+            - text: 评论
+          - button "举报" [ref=e1185]:
+            - img [ref=e1186]
+            - text: 举报
+        - generic [ref=e1188]:
+          - button "用户总数 3 查看用户状态与治理" [ref=e1189]:
+            - generic [ref=e1190]:
+              - generic [ref=e1191]:
+                - paragraph [ref=e1192]: 用户总数
+                - paragraph [ref=e1193]: "3"
+                - paragraph [ref=e1194]: 查看用户状态与治理
+              - img [ref=e1196]
+          - button "帖子总数 3 查看帖子状态与处理" [ref=e1199]:
+            - generic [ref=e1200]:
+              - generic [ref=e1201]:
+                - paragraph [ref=e1202]: 帖子总数
+                - paragraph [ref=e1203]: "3"
+                - paragraph [ref=e1204]: 查看帖子状态与处理
+              - img [ref=e1206]
+          - button "评论总数 1 查看评论并执行删除" [ref=e1209]:
+            - generic [ref=e1210]:
+              - generic [ref=e1211]:
+                - paragraph [ref=e1212]: 评论总数
+                - paragraph [ref=e1213]: "1"
+                - paragraph [ref=e1214]: 查看评论并执行删除
+              - img [ref=e1216]
+          - button "待处理举报 1 优先处理开放中的举报" [ref=e1218]:
+            - generic [ref=e1219]:
+              - generic [ref=e1220]:
+                - paragraph [ref=e1221]: 待处理举报
+                - paragraph [ref=e1222]: "1"
+                - paragraph [ref=e1223]: 优先处理开放中的举报
+              - img [ref=e1225]
+        - generic [ref=e1282]:
+          - generic [ref=e1283]:
+            - generic [ref=e1284]:
+              - heading "举报" [level=2] [ref=e1285]
+              - paragraph [ref=e1286]: 处理举报并对违规帖子执行治理动作。
+            - button "刷新数据" [ref=e1287]:
+              - img [ref=e1288]
+              - text: 刷新数据
+          - generic [ref=e1293]:
+            - generic [ref=e1294]:
+              - combobox [ref=e1295]:
+                - option "只看待处理" [selected]
+                - option "只看已处理"
+                - option "全部举报"
+              - button "刷新举报" [ref=e1296]
+            - generic [ref=e1299]:
+              - generic [ref=e1300]:
+                - generic [ref=e1301]:
+                  - generic [ref=e1302]: Jane Doe
+                  - generic [ref=e1303]: "@janedoe"
+                  - generic [ref=e1304]: OPEN
+                  - generic [ref=e1305]: spam
+                - paragraph [ref=e1306]: 提交时间：2026/04/15 00:44
+                - paragraph [ref=e1307]: 测试举报流程：这是一条需要管理员处理的示例说明。
+                - generic [ref=e1308]:
+                  - paragraph [ref=e1309]: 帖子状态： ACTIVE
+                  - paragraph [ref=e1310]: "Welcome to HNUST Easy WeiBo! Share your thoughts and connect with others. #HNUST #Welcome"
+                  - paragraph [ref=e1311]: 作者：HNUST Admin · 2026/04/14 22:25
+              - generic [ref=e1312]:
+                - button "标记处理" [ref=e1313]:
+                  - generic [ref=e1314]:
+                    - img [ref=e1315]
+                    - text: 标记处理
+                - button "撤回帖子" [active] [ref=e1318]
+                - button "删除帖子" [ref=e1319]
+      - generic [ref=e1321]:
+        - generic [ref=e1322]:
+          - generic [ref=e1323]:
+            - heading "撤回帖子" [level=3] [ref=e1324]
+            - paragraph [ref=e1325]: 对象：HNUST Admin 的帖子
+          - button "取消" [ref=e1326]
+        - generic [ref=e1328]:
+          - generic [ref=e1329]: 处理原因
+          - textbox "处理原因" [ref=e1330]:
+            - /placeholder: 请填写原因，这会通过系统通知发送给对方。
+        - generic [ref=e1331]:
+          - button "取消" [ref=e1332]
+          - button "确认撤回" [ref=e1333]
+  - generic [ref=e1105]:
+    - generic [ref=e1107]:
+      - img [ref=e1108]
+      - textbox "搜索 WeiBo" [ref=e1111]
+    - generic [ref=e1112]:
+      - heading "热门话题" [level=2] [ref=e1113]
+      - generic [ref=e1114] [cursor=pointer]:
+        - paragraph [ref=e1115]: 正在热议
+        - paragraph [ref=e1116]: "#Coding"
+        - paragraph [ref=e1117]: 1 帖子
+      - generic [ref=e1118] [cursor=pointer]:
+        - paragraph [ref=e1119]: 正在热议
+        - paragraph [ref=e1120]: "#HNUST"
+        - paragraph [ref=e1121]: 1 帖子
+      - generic [ref=e1122] [cursor=pointer]:
+        - paragraph [ref=e1123]: 正在热议
+        - paragraph [ref=e1124]: "#React"
+        - paragraph [ref=e1125]: 1 帖子
+      - generic [ref=e1126] [cursor=pointer]:
+        - paragraph [ref=e1127]: 正在热议
+        - paragraph [ref=e1128]: "#Welcome"
+        - paragraph [ref=e1129]: 1 帖子
+      - button "显示更多" [ref=e1130]
+    - generic [ref=e1131]:
+      - heading "推荐关注" [level=2] [ref=e1132]
+      - generic [ref=e1133] [cursor=pointer]:
+        - img "John Doe" [ref=e1134]
+        - generic [ref=e1135]:
+          - paragraph [ref=e1136]: John Doe
+          - paragraph [ref=e1137]: "@johndoe"
+        - button "已关注" [ref=e1138]
+      - generic [ref=e1139] [cursor=pointer]:
+        - img "Jane Doe" [ref=e1140]
+        - generic [ref=e1141]:
+          - paragraph [ref=e1142]: Jane Doe
+          - paragraph [ref=e1143]: "@janedoe"
+        - button "关注" [ref=e1144]
+      - button "显示更多" [ref=e1145]
+    - generic [ref=e1146]: 服务条款隐私政策Cookie 政策© 2026 HNUST Easy WeiBo

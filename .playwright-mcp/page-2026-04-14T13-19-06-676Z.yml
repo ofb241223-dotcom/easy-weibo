@@ -1,0 +1,130 @@
+- generic [ref=e2371]:
+  - generic [ref=e2373]:
+    - img "HNUST logo" [ref=e2375]
+    - navigation [ref=e2376]:
+      - link "首页" [ref=e2377] [cursor=pointer]:
+        - /url: /
+        - img [ref=e2379]
+        - generic [ref=e2382]: 首页
+      - link "发现" [ref=e2383] [cursor=pointer]:
+        - /url: /search
+        - img [ref=e2385]
+        - generic [ref=e2388]: 发现
+      - link "话题" [ref=e2389] [cursor=pointer]:
+        - /url: /topics
+        - img [ref=e2391]
+        - generic [ref=e2394]: 话题
+      - link "通知" [ref=e2395] [cursor=pointer]:
+        - /url: /notifications
+        - img [ref=e2397]
+        - generic [ref=e2400]: 通知
+      - link "个人主页" [ref=e2401] [cursor=pointer]:
+        - /url: /profile/e2euser0414
+        - img [ref=e2403]
+        - generic [ref=e2406]: 个人主页
+      - link "设置" [active] [ref=e2407] [cursor=pointer]:
+        - /url: /settings
+        - img [ref=e2409]
+        - generic [ref=e2412]: 设置
+      - button "深色模式" [ref=e2413]:
+        - img [ref=e2414]
+        - generic [ref=e2416]: 深色模式
+    - generic [ref=e2417]:
+      - button "发布" [ref=e2418]:
+        - img [ref=e2419]
+        - generic [ref=e2421]: 发布
+      - generic [ref=e2422] [cursor=pointer]:
+        - img "E2E User" [ref=e2423]
+        - generic [ref=e2424]:
+          - paragraph [ref=e2425]: E2E User
+          - paragraph [ref=e2426]: "@e2euser0414"
+        - button "退出登录" [ref=e2427]:
+          - img [ref=e2428]
+  - main [ref=e2431]:
+    - generic [ref=e2642]:
+      - heading "设置" [level=1] [ref=e2644]
+      - generic [ref=e2645]:
+        - generic [ref=e2646]:
+          - heading "账号设置" [level=2] [ref=e2647]
+          - generic [ref=e2648] [cursor=pointer]:
+            - img [ref=e2650]
+            - generic [ref=e2653]:
+              - paragraph [ref=e2654]: 个人资料
+              - paragraph [ref=e2655]: 查看个人主页与资料
+          - generic [ref=e2656] [cursor=pointer]:
+            - img [ref=e2658]
+            - generic [ref=e2660]:
+              - paragraph [ref=e2661]: 安全与隐私
+              - paragraph [ref=e2662]: 修改密码与账号安全
+        - generic [ref=e2663]:
+          - heading "偏好设置" [level=2] [ref=e2664]
+          - generic [ref=e2665] [cursor=pointer]:
+            - img [ref=e2667]
+            - generic [ref=e2669]:
+              - paragraph [ref=e2670]: 显示模式
+              - paragraph [ref=e2671]: 切换到深色模式
+          - generic [ref=e2672] [cursor=pointer]:
+            - img [ref=e2674]
+            - generic [ref=e2677]:
+              - paragraph [ref=e2678]: 通知设置
+              - paragraph [ref=e2679]: 管理推送通知
+          - generic [ref=e2680]:
+            - img [ref=e2682]
+            - generic [ref=e2685]:
+              - paragraph [ref=e2686]: 语言
+              - paragraph [ref=e2687]: 当前仅支持简体中文
+        - generic [ref=e2688]:
+          - heading "支持" [level=2] [ref=e2689]
+          - generic [ref=e2690] [cursor=pointer]:
+            - img [ref=e2692]
+            - generic [ref=e2695]:
+              - paragraph [ref=e2696]: 帮助中心
+              - paragraph [ref=e2697]: 常见问题与反馈
+        - button "退出登录" [ref=e2699]:
+          - img [ref=e2700]
+          - text: 退出登录
+  - generic [ref=e2584]:
+    - generic [ref=e2586]:
+      - img [ref=e2587]
+      - textbox "搜索 WeiBo" [ref=e2590]
+    - generic [ref=e2591]:
+      - heading "热门话题" [level=2] [ref=e2592]
+      - generic [ref=e2593] [cursor=pointer]:
+        - paragraph [ref=e2594]: 正在热议
+        - paragraph [ref=e2595]: "#Coding"
+        - paragraph [ref=e2596]: 1 帖子
+      - generic [ref=e2597] [cursor=pointer]:
+        - paragraph [ref=e2598]: 正在热议
+        - paragraph [ref=e2599]: "#HNUST"
+        - paragraph [ref=e2600]: 1 帖子
+      - generic [ref=e2601] [cursor=pointer]:
+        - paragraph [ref=e2602]: 正在热议
+        - paragraph [ref=e2603]: "#React"
+        - paragraph [ref=e2604]: 1 帖子
+      - generic [ref=e2605] [cursor=pointer]:
+        - paragraph [ref=e2606]: 正在热议
+        - paragraph [ref=e2607]: "#Welcome"
+        - paragraph [ref=e2608]: 1 帖子
+      - button "显示更多" [ref=e2609]
+    - generic [ref=e2610]:
+      - heading "推荐关注" [level=2] [ref=e2611]
+      - generic [ref=e2612] [cursor=pointer]:
+        - img "HNUST Admin" [ref=e2613]
+        - generic [ref=e2614]:
+          - paragraph [ref=e2615]: HNUST Admin
+          - paragraph [ref=e2616]: "@admin"
+        - button "关注" [ref=e2617]
+      - generic [ref=e2618] [cursor=pointer]:
+        - img "John Doe" [ref=e2619]
+        - generic [ref=e2620]:
+          - paragraph [ref=e2621]: John Doe
+          - paragraph [ref=e2622]: "@johndoe"
+        - button "关注" [ref=e2623]
+      - generic [ref=e2624] [cursor=pointer]:
+        - img "Jane Doe" [ref=e2625]
+        - generic [ref=e2626]:
+          - paragraph [ref=e2627]: Jane Doe
+          - paragraph [ref=e2628]: "@janedoe"
+        - button "关注" [ref=e2629]
+      - button "显示更多" [ref=e2630]
+    - generic [ref=e2631]: 服务条款隐私政策Cookie 政策© 2026 HNUST Easy WeiBo

@@ -1,0 +1,29 @@
+- generic [ref=e2268]:
+  - generic [ref=e2270]:
+    - img "HNUST logo" [ref=e2271]
+    - generic [ref=e2272]:
+      - paragraph [ref=e2273]: HNUST Easy WeiBo
+      - paragraph [ref=e2274]: 校园社交分享平台
+  - generic [ref=e2307]:
+    - heading "创建 HNUST Easy WeiBo 账号" [level=1] [ref=e2344]
+    - paragraph [ref=e2309]: 创建一个校园账号，马上开始发布、评论和关注。
+    - generic [ref=e2345]: 昵称
+    - textbox "昵称" [ref=e2347]:
+      - /placeholder: 请输入昵称
+    - generic [ref=e2310]: 用户名
+    - textbox "用户名" [ref=e2312]:
+      - /placeholder: 3-24 个字符，可使用字母数字下划线
+    - generic [ref=e2313]: 密码
+    - generic [ref=e2314]:
+      - textbox "密码" [ref=e2315]:
+        - /placeholder: 至少 6 位密码
+      - button [ref=e2316] [cursor=pointer]:
+        - img [ref=e2317]
+    - generic [ref=e2348]: 确认密码
+    - textbox "确认密码" [ref=e2350]:
+      - /placeholder: 再次输入密码
+    - paragraph [ref=e2351]: 注册成功后会自动登录并进入首页。
+    - button "注册并进入" [ref=e2352] [cursor=pointer]
+    - paragraph [ref=e2326]:
+      - text: 已经有账号？
+      - button "立即登录" [active] [ref=e2353] [cursor=pointer]

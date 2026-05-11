@@ -1,0 +1,186 @@
+- generic [ref=e4]:
+  - generic [ref=e6]:
+    - img "HNUST logo" [ref=e8]
+    - navigation [ref=e9]:
+      - link "首页" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e15]: 首页
+      - link "发现" [ref=e16] [cursor=pointer]:
+        - /url: /search
+        - img [ref=e18]
+        - generic [ref=e21]: 发现
+      - link "话题" [ref=e22] [cursor=pointer]:
+        - /url: /topics
+        - img [ref=e24]
+        - generic [ref=e27]: 话题
+      - link "通知" [ref=e28] [cursor=pointer]:
+        - /url: /notifications
+        - img [ref=e30]
+        - generic [ref=e33]: 通知
+      - link "个人主页" [ref=e34] [cursor=pointer]:
+        - /url: /profile/johndoe
+        - img [ref=e36]
+        - generic [ref=e39]: 个人主页
+      - link "设置" [ref=e40] [cursor=pointer]:
+        - /url: /settings
+        - img [ref=e42]
+        - generic [ref=e45]: 设置
+      - button "深色模式" [ref=e46]:
+        - img [ref=e47]
+        - generic [ref=e49]: 深色模式
+    - generic [ref=e50]:
+      - button "发布" [ref=e51]:
+        - img [ref=e52]
+        - generic [ref=e54]: 发布
+      - generic [ref=e55] [cursor=pointer]:
+        - img "John Doe" [ref=e56]
+        - generic [ref=e57]:
+          - paragraph [ref=e58]: John Doe
+          - paragraph [ref=e59]: "@johndoe"
+        - button "退出登录" [ref=e60]:
+          - img [ref=e61]
+  - main [ref=e64]:
+    - generic [ref=e65]:
+      - heading "首页" [level=1] [ref=e67]
+      - generic [ref=e68]:
+        - img "John Doe" [ref=e69]
+        - generic [ref=e70]:
+          - button "全屏编辑" [ref=e72]:
+            - img [ref=e73]
+            - text: 全屏编辑
+          - textbox "有什么新鲜事？" [ref=e78]
+          - generic [ref=e79]:
+            - generic [ref=e80]:
+              - img [ref=e82] [cursor=pointer]
+              - button [ref=e87]:
+                - img [ref=e88]
+            - button "发布" [disabled] [ref=e91]
+      - generic [ref=e92]:
+        - generic [ref=e94] [cursor=pointer]:
+          - img "HNUST Admin" [ref=e95]
+          - generic [ref=e96]:
+            - generic [ref=e97]:
+              - generic [ref=e98]:
+                - generic [ref=e99]: HNUST Admin
+                - generic [ref=e100]: "@admin"
+                - generic [ref=e101]: ·
+                - generic [ref=e102]: 大约 2 小时前
+              - button "更多操作" [ref=e104]:
+                - img [ref=e105]
+            - generic [ref=e109]:
+              - text: Welcome to HNUST Easy WeiBo! Share your thoughts and connect with others.
+              - button "#HNUST" [ref=e110]
+              - button "#Welcome" [ref=e111]
+            - img "Post content" [ref=e113]
+            - generic [ref=e114]:
+              - button "1" [ref=e115]:
+                - img [ref=e117]
+                - generic [ref=e119]: "1"
+              - button "0" [ref=e120]:
+                - img [ref=e122]
+                - generic [ref=e127]: "0"
+              - button "45" [ref=e128]:
+                - img [ref=e130]
+                - generic [ref=e132]: "45"
+              - button [ref=e133]:
+                - img [ref=e135]
+              - button [ref=e137]:
+                - img [ref=e139]
+        - generic [ref=e146] [cursor=pointer]:
+          - img "John Doe" [ref=e147]
+          - generic [ref=e148]:
+            - generic [ref=e149]:
+              - generic [ref=e150]:
+                - generic [ref=e151]: John Doe
+                - generic [ref=e152]: "@johndoe"
+                - generic [ref=e153]: ·
+                - generic [ref=e154]: 大约 5 小时前
+              - button "更多操作" [ref=e156]:
+                - img [ref=e157]
+            - generic [ref=e161]: The library is so crowded today! Does anyone know a quiet place to study? 📚
+            - generic [ref=e162]:
+              - button "0" [ref=e163]:
+                - img [ref=e165]
+                - generic [ref=e167]: "0"
+              - button "0" [ref=e168]:
+                - img [ref=e170]
+                - generic [ref=e175]: "0"
+              - button "10" [ref=e176]:
+                - img [ref=e178]
+                - generic [ref=e180]: "10"
+              - button [ref=e181]:
+                - img [ref=e183]
+              - button [ref=e185]:
+                - img [ref=e187]
+        - generic [ref=e194] [cursor=pointer]:
+          - img "Jane Doe" [ref=e195]
+          - generic [ref=e196]:
+            - generic [ref=e197]:
+              - generic [ref=e198]:
+                - generic [ref=e199]: Jane Doe
+                - generic [ref=e200]: "@janedoe"
+                - generic [ref=e201]: ·
+                - generic [ref=e202]: 1 天前
+              - button "更多操作" [ref=e204]:
+                - img [ref=e205]
+            - generic [ref=e209]:
+              - text: Just finished my first React project! It was challenging but fun. 💻✨
+              - button "#Coding" [ref=e210]
+              - button "#React" [ref=e211]
+            - generic [ref=e212]:
+              - img "Post content" [ref=e213]
+              - img "Post content" [ref=e214]
+            - generic [ref=e215]:
+              - button "0" [ref=e216]:
+                - img [ref=e218]
+                - generic [ref=e220]: "0"
+              - button "0" [ref=e221]:
+                - img [ref=e223]
+                - generic [ref=e228]: "0"
+              - button "88" [ref=e229]:
+                - img [ref=e231]
+                - generic [ref=e233]: "88"
+              - button [ref=e234]:
+                - img [ref=e236]
+              - button [ref=e238]:
+                - img [ref=e240]
+  - generic [ref=e247]:
+    - generic [ref=e249]:
+      - img [ref=e250]
+      - textbox "搜索 WeiBo" [ref=e253]
+    - generic [ref=e254]:
+      - heading "热门话题" [level=2] [ref=e255]
+      - generic [ref=e256] [cursor=pointer]:
+        - paragraph [ref=e257]: 正在热议
+        - paragraph [ref=e258]: "#Coding"
+        - paragraph [ref=e259]: 1 帖子
+      - generic [ref=e260] [cursor=pointer]:
+        - paragraph [ref=e261]: 正在热议
+        - paragraph [ref=e262]: "#HNUST"
+        - paragraph [ref=e263]: 1 帖子
+      - generic [ref=e264] [cursor=pointer]:
+        - paragraph [ref=e265]: 正在热议
+        - paragraph [ref=e266]: "#React"
+        - paragraph [ref=e267]: 1 帖子
+      - generic [ref=e268] [cursor=pointer]:
+        - paragraph [ref=e269]: 正在热议
+        - paragraph [ref=e270]: "#Welcome"
+        - paragraph [ref=e271]: 1 帖子
+      - button "显示更多" [ref=e272]
+    - generic [ref=e273]:
+      - heading "推荐关注" [level=2] [ref=e274]
+      - generic [ref=e275] [cursor=pointer]:
+        - img "HNUST Admin" [ref=e276]
+        - generic [ref=e277]:
+          - paragraph [ref=e278]: HNUST Admin
+          - paragraph [ref=e279]: "@admin"
+        - button "已关注" [ref=e280]
+      - generic [ref=e281] [cursor=pointer]:
+        - img "Jane Doe" [ref=e282]
+        - generic [ref=e283]:
+          - paragraph [ref=e284]: Jane Doe
+          - paragraph [ref=e285]: "@janedoe"
+        - button "关注" [ref=e286]
+      - button "显示更多" [ref=e287]
+    - generic [ref=e288]: 服务条款隐私政策Cookie 政策© 2026 HNUST Easy WeiBo

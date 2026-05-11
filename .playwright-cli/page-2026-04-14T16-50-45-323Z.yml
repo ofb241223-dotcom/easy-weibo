@@ -1,0 +1,22 @@
+- generic [ref=e1393]:
+  - generic [ref=e1394]:
+    - generic [ref=e1395]:
+      - button [ref=e1396]:
+        - img [ref=e1397]
+      - heading "重新编辑帖子" [level=1] [ref=e1401]
+    - button "全屏编辑" [ref=e1403]:
+      - generic [ref=e1404]:
+        - img [ref=e1405]
+        - text: 全屏编辑
+  - generic [ref=e1410]:
+    - generic [ref=e1411]:
+      - img "HNUST Admin" [ref=e1412]
+      - generic [ref=e1413]:
+        - textbox "修改后重新发布这条帖子" [ref=e1414]: "Welcome to HNUST Easy WeiBo! Share your thoughts and connect with others. #HNUST #Welcome"
+        - paragraph [ref=e1415]: 管理员已撤回这条帖子。修改内容后可重新发布，原有图片会继续保留。
+    - generic [ref=e1416]:
+      - button [ref=e1419]:
+        - img [ref=e1420]
+      - generic [ref=e1423]:
+        - paragraph [ref=e1424]: 89 字
+        - button "重新发布" [ref=e1425]

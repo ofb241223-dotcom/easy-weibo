@@ -1,0 +1,24 @@
+- generic [ref=e1240]:
+  - generic [ref=e1241]:
+    - generic [ref=e1242]:
+      - button [ref=e1243]:
+        - img [ref=e1244]
+      - generic [ref=e1247]:
+        - heading "发布内容" [level=1] [ref=e1248]
+        - paragraph [ref=e1249]: 先普通编辑，需要时再切到全屏。
+    - generic [ref=e1250]:
+      - button "退出全屏" [active] [ref=e1276]:
+        - generic [ref=e1252]:
+          - img [ref=e1277]
+          - text: 退出全屏
+      - button "发布" [disabled] [ref=e1258]
+  - generic [ref=e1259]:
+    - generic [ref=e1260]:
+      - img "HNUST Admin" [ref=e1261]
+      - textbox "有什么新鲜事？" [ref=e1263]
+    - generic [ref=e1264]:
+      - generic [ref=e1265]:
+        - img [ref=e1267] [cursor=pointer]
+        - button [ref=e1271]:
+          - img [ref=e1272]
+      - paragraph [ref=e1275]: 0 字

@@ -1,0 +1,107 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e8]:
+        - img "HNUST logo" [ref=e9]
+        - generic [ref=e10]: Easy WeiBo
+      - navigation [ref=e11]:
+        - link "首页" [ref=e12] [cursor=pointer]:
+          - /url: /
+          - img [ref=e14]
+          - generic [ref=e17]: 首页
+        - link "发现" [ref=e18] [cursor=pointer]:
+          - /url: /search
+          - img [ref=e20]
+          - generic [ref=e23]: 发现
+        - link "话题" [ref=e24] [cursor=pointer]:
+          - /url: /topics
+          - img [ref=e26]
+          - generic [ref=e29]: 话题
+        - link "2 通知" [ref=e30] [cursor=pointer]:
+          - /url: /notifications
+          - generic [ref=e31]:
+            - img [ref=e32]
+            - generic [ref=e35]: "2"
+          - generic [ref=e36]: 通知
+        - link "个人主页" [ref=e37] [cursor=pointer]:
+          - /url: /profile/admin
+          - img [ref=e39]
+          - generic [ref=e42]: 个人主页
+        - link "关注列表" [ref=e43] [cursor=pointer]:
+          - /url: /connections
+          - img [ref=e45]
+          - generic [ref=e48]: 关注列表
+        - link "聊天" [ref=e49] [cursor=pointer]:
+          - /url: /chat
+          - img [ref=e51]
+          - generic [ref=e53]: 聊天
+        - link "控制台" [ref=e54] [cursor=pointer]:
+          - /url: /admin
+          - img [ref=e56]
+          - generic [ref=e61]: 控制台
+        - link "设置" [ref=e62] [cursor=pointer]:
+          - /url: /settings
+          - img [ref=e64]
+          - generic [ref=e67]: 设置
+        - button "深色模式" [ref=e68]:
+          - img [ref=e69]
+          - generic [ref=e71]: 深色模式
+      - button "发布" [ref=e73]:
+        - img [ref=e74]
+        - generic [ref=e76]: 发布
+      - generic [ref=e78] [cursor=pointer]:
+        - img "HNUST Admin" [ref=e79]
+        - generic [ref=e80]:
+          - paragraph [ref=e81]: HNUST Admin
+          - paragraph [ref=e82]: "@admin"
+        - button "退出登录" [ref=e83]:
+          - img [ref=e84]
+    - main [ref=e87]:
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - button [ref=e90]:
+            - img [ref=e91]
+          - generic [ref=e93]:
+            - heading "聊天" [level=1] [ref=e94]
+            - paragraph [ref=e95]: 查看最近对话、未读消息，并与好友或陌生人开始私聊。
+        - generic [ref=e96]:
+          - complementary [ref=e97]:
+            - generic [ref=e98]:
+              - generic [ref=e99]:
+                - img
+                - textbox [ref=e100]:
+                  - /placeholder: 搜索会话
+              - generic [ref=e101]:
+                - img
+                - textbox [ref=e102]:
+                  - /placeholder: 搜索用户并开始聊天
+          - generic [ref=e107]:
+            - img [ref=e108]
+            - paragraph [ref=e110]: 选择一个会话开始聊天
+            - paragraph [ref=e111]: 陌生人之间最多只能发送一条开场消息，对方回复后才可以持续聊天。
+    - generic [ref=e113]:
+      - generic [ref=e115]:
+        - img [ref=e116]
+        - textbox "搜索 WeiBo" [ref=e119]
+      - generic [ref=e120]:
+        - heading "热门话题" [level=2] [ref=e121]
+        - button "显示更多" [ref=e122]
+      - generic [ref=e123]:
+        - heading "推荐关注" [level=2] [ref=e124]
+        - button "显示更多" [ref=e125]
+      - generic [ref=e127]:
+        - generic [ref=e128]: 服务条款
+        - generic [ref=e129]: "|"
+        - generic [ref=e130]: 隐私政策
+        - generic [ref=e131]: "|"
+        - generic [ref=e132]: Cookie 政策
+        - generic [ref=e133]: "|"
+        - generic [ref=e134]: 无障碍
+        - generic [ref=e135]: "|"
+        - generic [ref=e136]: 广告信息
+        - generic [ref=e137]: "|"
+        - generic [ref=e138]: 更多…
+        - generic [ref=e139]: "|"
+        - generic [ref=e140]: © 2026 HNUST Easy WeiBo
+  - button "打开 Gemini 对话" [ref=e141]:
+    - img "Gemini" [ref=e142]

@@ -1,0 +1,117 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e8]:
+        - img "HNUST logo" [ref=e9]
+        - generic [ref=e10]: Easy WeiBo
+      - navigation [ref=e11]:
+        - link "首页" [ref=e12] [cursor=pointer]:
+          - /url: /
+          - img [ref=e14]
+          - generic [ref=e17]: 首页
+        - link "发现" [ref=e18] [cursor=pointer]:
+          - /url: /search
+          - img [ref=e20]
+          - generic [ref=e23]: 发现
+        - link "话题" [ref=e24] [cursor=pointer]:
+          - /url: /topics
+          - img [ref=e26]
+          - generic [ref=e29]: 话题
+        - link "2 通知" [ref=e30] [cursor=pointer]:
+          - /url: /notifications
+          - generic [ref=e31]:
+            - img [ref=e32]
+            - generic [ref=e35]: "2"
+          - generic [ref=e36]: 通知
+        - link "个人主页" [ref=e37] [cursor=pointer]:
+          - /url: /profile/admin
+          - img [ref=e39]
+          - generic [ref=e42]: 个人主页
+        - link "关注列表" [ref=e43] [cursor=pointer]:
+          - /url: /connections
+          - img [ref=e45]
+          - generic [ref=e48]: 关注列表
+        - link "聊天" [ref=e49] [cursor=pointer]:
+          - /url: /chat
+          - img [ref=e51]
+          - generic [ref=e53]: 聊天
+        - link "控制台" [ref=e54] [cursor=pointer]:
+          - /url: /admin
+          - img [ref=e56]
+          - generic [ref=e61]: 控制台
+        - link "设置" [ref=e62] [cursor=pointer]:
+          - /url: /settings
+          - img [ref=e64]
+          - generic [ref=e67]: 设置
+        - button "深色模式" [ref=e68]:
+          - img [ref=e69]
+          - generic [ref=e71]: 深色模式
+      - button "发布" [ref=e73]:
+        - img [ref=e74]
+        - generic [ref=e76]: 发布
+      - generic [ref=e78] [cursor=pointer]:
+        - img "HNUST Admin" [ref=e79]
+        - generic [ref=e80]:
+          - paragraph [ref=e81]: HNUST Admin
+          - paragraph [ref=e82]: "@admin"
+        - button "退出登录" [ref=e83]:
+          - img [ref=e84]
+    - main [ref=e87]:
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - button [ref=e90]:
+            - img [ref=e91]
+          - heading "关注列表" [level=1] [ref=e94]
+        - generic [ref=e95]:
+          - generic [ref=e96]:
+            - button "关注" [ref=e97]
+            - button "粉丝" [ref=e98]
+            - button "互关" [ref=e99]
+          - generic [ref=e100]:
+            - img
+            - textbox [ref=e101]:
+              - /placeholder: 搜索昵称或用户名
+    - generic [ref=e105]:
+      - generic [ref=e107]:
+        - img [ref=e108]
+        - textbox "搜索 WeiBo" [ref=e111]
+      - generic [ref=e112]:
+        - heading "热门话题" [level=2] [ref=e113]
+        - 'button "正在热议 #Coding 1 帖子" [ref=e114]':
+          - paragraph [ref=e115]: 正在热议
+          - paragraph [ref=e116]: "#Coding"
+          - paragraph [ref=e117]: 1 帖子
+        - 'button "正在热议 #HNUST 1 帖子" [ref=e118]':
+          - paragraph [ref=e119]: 正在热议
+          - paragraph [ref=e120]: "#HNUST"
+          - paragraph [ref=e121]: 1 帖子
+        - 'button "正在热议 #Linux 1 帖子" [ref=e122]':
+          - paragraph [ref=e123]: 正在热议
+          - paragraph [ref=e124]: "#Linux"
+          - paragraph [ref=e125]: 1 帖子
+        - 'button "正在热议 #MySQL 1 帖子" [ref=e126]':
+          - paragraph [ref=e127]: 正在热议
+          - paragraph [ref=e128]: "#MySQL"
+          - paragraph [ref=e129]: 1 帖子
+        - 'button "正在热议 #React 1 帖子" [ref=e130]':
+          - paragraph [ref=e131]: 正在热议
+          - paragraph [ref=e132]: "#React"
+          - paragraph [ref=e133]: 1 帖子
+        - 'button "正在热议 #SpringBoot 1 帖子" [ref=e134]':
+          - paragraph [ref=e135]: 正在热议
+          - paragraph [ref=e136]: "#SpringBoot"
+          - paragraph [ref=e137]: 1 帖子
+        - button "显示更多" [ref=e138]
+      - generic [ref=e139]:
+        - heading "推荐关注" [level=2] [ref=e140]
+        - button "显示更多" [ref=e141]
+      - generic [ref=e143]:
+        - generic [ref=e144]: 服务条款
+        - generic [ref=e145]: "|"
+        - generic [ref=e146]: 隐私政策
+        - generic [ref=e147]: "|"
+        - generic [ref=e148]: Cookie 政策
+        - generic [ref=e149]: "|"
+        - generic [ref=e150]: © 2026 HNUST Easy WeiBo
+  - button "打开 Gemini 对话" [ref=e151]:
+    - img "Gemini" [ref=e152]

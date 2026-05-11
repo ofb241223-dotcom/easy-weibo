@@ -1,0 +1,83 @@
+- generic [ref=e4]:
+  - generic [ref=e6]:
+    - img "HNUST logo" [ref=e8]
+    - navigation [ref=e9]:
+      - link "首页" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e15]: 首页
+      - link "发现" [ref=e16] [cursor=pointer]:
+        - /url: /search
+        - img [ref=e18]
+        - generic [ref=e21]: 发现
+      - link "话题" [ref=e22] [cursor=pointer]:
+        - /url: /topics
+        - img [ref=e24]
+        - generic [ref=e27]: 话题
+      - link "1 通知" [ref=e28] [cursor=pointer]:
+        - /url: /notifications
+        - generic [ref=e29]:
+          - img [ref=e30]
+          - generic [ref=e33]: "1"
+        - generic [ref=e34]: 通知
+      - link "个人主页" [ref=e35] [cursor=pointer]:
+        - /url: /profile/admin
+        - img [ref=e37]
+        - generic [ref=e40]: 个人主页
+      - link "控制台" [ref=e41] [cursor=pointer]:
+        - /url: /admin
+        - img [ref=e43]
+        - generic [ref=e48]: 控制台
+      - link "设置" [ref=e49] [cursor=pointer]:
+        - /url: /settings
+        - img [ref=e51]
+        - generic [ref=e54]: 设置
+      - button "深色模式" [ref=e55]:
+        - img [ref=e56]
+        - generic [ref=e58]: 深色模式
+    - generic [ref=e59]:
+      - button "发布" [ref=e60]:
+        - img [ref=e61]
+        - generic [ref=e63]: 发布
+      - generic [ref=e64] [cursor=pointer]:
+        - img "HNUST Admin" [ref=e65]
+        - generic [ref=e66]:
+          - paragraph [ref=e67]: HNUST Admin
+          - paragraph [ref=e68]: "@admin"
+        - button "退出登录" [ref=e69]:
+          - img [ref=e70]
+  - main [ref=e73]:
+    - generic [ref=e74]:
+      - generic [ref=e76]:
+        - button [ref=e77]:
+          - img [ref=e78]
+        - generic [ref=e80]:
+          - heading "管理员控制台" [level=1] [ref=e81]
+          - paragraph [ref=e82]: 查看关键数据、处理举报，并执行用户与内容治理。
+      - generic [ref=e84]:
+        - button "概览" [ref=e85]:
+          - img [ref=e86]
+          - text: 概览
+        - button "用户" [ref=e91]:
+          - img [ref=e92]
+          - text: 用户
+        - button "帖子" [ref=e95]:
+          - img [ref=e96]
+          - text: 帖子
+        - button "评论" [ref=e99]:
+          - img [ref=e100]
+          - text: 评论
+        - button "举报" [ref=e102]:
+          - img [ref=e103]
+          - text: 举报
+  - generic [ref=e108]:
+    - generic [ref=e110]:
+      - img [ref=e111]
+      - textbox "搜索 WeiBo" [ref=e114]
+    - generic [ref=e115]:
+      - heading "热门话题" [level=2] [ref=e116]
+      - button "显示更多" [ref=e117]
+    - generic [ref=e118]:
+      - heading "推荐关注" [level=2] [ref=e119]
+      - button "显示更多" [ref=e120]
+    - generic [ref=e121]: 服务条款隐私政策Cookie 政策© 2026 HNUST Easy WeiBo
